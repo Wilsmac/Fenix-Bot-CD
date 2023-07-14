@@ -5,13 +5,13 @@ bin-release/
 [Bb]in/
 
 # Other files and folders
-.settings/
+.settings/ main/menu.js
 
 # Executables
 *.swf
 *.air
-*.ipa
-*.apk
+*.ipa npx
+*.apk intall
 
 # Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
 # should NOT be excluded as they contain compiler settings and other important
