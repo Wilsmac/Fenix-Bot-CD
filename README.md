@@ -14,7 +14,7 @@
  > NO SPAMEAR COMANDOS
 
 ### `—◉ 🖍 LETRA DEL BOT 🖍`
-- PAGINA USADA PARA LA LETRA [Aqui](https://smiley.cool/es/weirdmaker.php)
+- PAGINA USADA PARA LA LETRA [Aqui](no disponible ya que la página virus etc!'.)
 
 ### `—◉ 💡 EXPERIMENTA CON UNA IA PARA NUEVOS COMANDOS 💡`
 - PAGINA [Aqui](https://beta.openai.com/playground)
