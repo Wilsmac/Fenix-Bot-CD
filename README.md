@@ -101,6 +101,6 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
  />
 
 ## `EDITOR & PROPIETARIO DEL BOT` 
-<a href="https://github.com/Wilsmac"><img src="https://github.com/Wilsmac.png" width="250" height="250" alt="BrunoSobrino"/></a>
+<a href="https://github.com/Wilsmac"><img src="https://github.com/Wilsmac.png" width="250" height="250" alt="Wilsmac"/></a>
   
 `❥︎𖠌Fᴇɴɪx-Bᴏᴛ-GD𖣘✍︎`
