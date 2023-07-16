@@ -97,7 +97,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
  
  ### `—◉ 👑 DUDAS SOBRE EL BOT?, CONTACTANOS 👑`
 <a href="http://wa.me/51918299647" target="blank"><img src="https://img.shields.io/badge/HJ_OFC_CREADOR-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-<a href="http://wa.me/34642467703" target="blank"><img src="https://img.shields.io/badge/UNPTOA_COLAB.1-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="http://wa.me/50258115623" target="blank"><img src="https://img.shields.io/badge/UNPTOA_COLAB.1-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
  />
 
 ## `EDITOR & PROPIETARIO DEL BOT` 
