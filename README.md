@@ -96,8 +96,8 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 - THE SHADOW BROKERS - TEAM NO SE HACE RESPONSABLE DEL USO, NUMEROS, PRIVACIDAD Y CONTENIDO MANDADO, USADO O GESTIONADO POR USTEDES O EL BOT
  
  ### `—◉ 👑 DUDAS SOBRE EL BOT?, CONTACTANOS 👑`
-<a href="http://wa.me/51918299647" target="blank"><img src="https://img.shields.io/badge/HJ_OFC_CREADOR-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-<a href="http://wa.me/50258115623" target="blank"><img src="https://img.shields.io/badge/UNPTOA_COLAB.1-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="http://wa.me/50258115623" target="blank"><img src="https://img.shields.io/badge/Wilmer,macu_CREADOR-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="http://wa.me/51918299647" target="blank"><img src="https://img.shields.io/badge/HJ_oficial_COLAB.1-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
  />
 
 ## `EDITOR & PROPIETARIO DEL BOT` 
