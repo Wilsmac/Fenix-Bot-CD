@@ -10,7 +10,7 @@ import moment from 'moment-timezone'
 global.owner = [
   ['50258115623', '👑 Fenix- Creador 👑', true],
   ['51918299647', '💫 Fenix- Collaborator 1 💫', true],
-] [595993320376],
+] ['595993320376'],
 
 global.suittag = ['51918299647] 
 global.prems = ['51918299647'] 
