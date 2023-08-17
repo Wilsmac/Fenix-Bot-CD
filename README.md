@@ -3,7 +3,7 @@
 
 ### `—◉ 💟 GRUPO DE SOPORTE 💟`
 
-<a href="https://chat.whatsapp.com/Bx8aFf8z3brIA42Y4UT2EF " target="blank"><img src="https://img.shields.io/badge/GRUPO_OFC_(𝙴𝚂)-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
+<a href="wa.me+505 7639 0682" target="blank"><img src="https://img.shields.io/badge/GRUPO_OFC_(𝙴𝚂)-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
 
 > LOS NUMEROS NO SON BOTS Y EN EL GRUPO NO SE PERMITEN NUMEROS QUE SEAN BOTS
 
