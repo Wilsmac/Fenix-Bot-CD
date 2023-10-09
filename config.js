@@ -18,7 +18,7 @@ global.owner = [
 global.suittag = ['50258115623', '50250101139'];
 global.prems = ['50250101139'];
 
-global.packname = 'Fenix';
+global.packname = '𝐹𝐸𝑁𝐼𝑋-𝐵𝑂𝑇-𝐶𝐷';
 global.author = '★𝐹𝐸𝑁𝐼𝑋-𝐵𝑂𝑇-𝐶𝐷★';
 global.wm = '★𝐹𝐸𝑁𝐼𝑋-𝐵𝑂𝑇-𝐶𝐷𝚝★';
 global.titulowm = '✨ 𝐹𝐸𝑁𝐼𝑋-𝐵𝑂𝑇-𝐶𝐷 ✨';
