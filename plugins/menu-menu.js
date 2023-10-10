@@ -30,7 +30,6 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ║➤ 𝑁𝑈𝑀𝐸𝑅𝑂: wa.me/50258115623
 ║➤ 𝐵𝑂𝑇 𝑂𝐹𝐶: wa.me/50250101139
 ║➤ 𝐵𝑂𝑇 𝑂𝐹𝐶 2: wa.me/502000000
-║➤ *PayPal:* https://www.paypal.me/Wilsmac
 ║➤ *Fecha:* ${date}
 ║➤ *Tiempo activo:* ${uptime}
 ║➤ *Usuarios regs:* ${rtotalreg}
