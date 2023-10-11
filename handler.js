@@ -1497,11 +1497,11 @@ export async function callUpdate(callUpdate) {
   for (const nk of callUpdate) {
     if (nk.isGroup == false) {
       if (nk.status == 'offer') {
-        const callmsg = await mconn.conn.reply(nk.from, `Hola *@${nk.from.split('@')[0]}*, las ${nk.isVideo ? 'videollamadas' : 'llamadas'} no están permitidas, serás bloqueado.\n-\nSi accidentalmente llamaste póngase en contacto con mi creador para que te desbloquee!`, false, {mentions: [nk.from]});
+        const callmsg = await mconn.conn.reply(nk.from, `Hola *@${nk.from.split('@')[0]}*, las ${nk.isVideo ? '𝑣𝑖𝑑𝑒𝑜𝑙𝑙𝑎𝑚𝑎𝑑𝑎𝑠 : '𝑙𝑙𝑎𝑚𝑎𝑑𝑎𝑠} no 𝑒𝑠𝑡𝑎́𝑛 𝑝𝑒𝑟𝑚𝑖𝑡𝑖𝑑𝑎𝑠, 𝑠𝑒𝑟𝑎́𝑠 𝑏𝑙𝑜𝑞𝑢𝑒𝑎𝑑𝑜.\n-\𝑛𝑆𝑖 𝑎𝑐𝑐𝑖𝑑𝑒𝑛𝑡𝑎𝑙𝑚𝑒𝑛𝑡𝑒 𝑙𝑙𝑎𝑚𝑎𝑠𝑡𝑒 𝑝𝑜́𝑛𝑔𝑎𝑠𝑒 𝑒𝑛 𝑐𝑜𝑛𝑡𝑎𝑐𝑡𝑜 𝑐𝑜𝑛 𝑚𝑖 𝑐𝑟𝑒𝑎𝑑𝑜𝑟 𝑝𝑎𝑟𝑎 𝑞𝑢𝑒 𝑡𝑒 𝑑𝑒𝑠𝑏𝑙𝑜𝑞𝑢𝑒𝑒!`, false, {mentions: [nk.from]});
         // let data = global.owner.filter(([id, isCreator]) => id && isCreator)
         // await this.sendContact(nk.from, data.map(([id, name]) => [id, name]), false, { quoted: callmsg })
-        const vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;𝐁𝐫𝐮𝐧𝐨 𝐒𝐨𝐛𝐫𝐢𝐧𝐨 👑;;;\nFN:𝐁𝐫𝐮𝐧𝐨 𝐒𝐨𝐛𝐫𝐢𝐧𝐨 👑\nORG:𝐁𝐫𝐮𝐧𝐨 𝐒𝐨𝐛𝐫𝐢𝐧𝐨 👑\nTITLE:\nitem1.TEL;waid=5219992095479:+521 999 209 5479\nitem1.X-ABLabel:𝐁𝐫𝐮𝐧𝐨 𝐒𝐨𝐛𝐫𝐢𝐧𝐨 👑\nX-WA-BIZ-DESCRIPTION:[❗] ᴄᴏɴᴛᴀᴄᴛᴀ ᴀ ᴇsᴛᴇ ɴᴜᴍ ᴘᴀʀᴀ ᴄᴏsᴀs ɪᴍᴘᴏʀᴛᴀɴᴛᴇs.\nX-WA-BIZ-NAME:𝐁𝐫𝐮𝐧𝐨 𝐒𝐨𝐛𝐫𝐢𝐧𝐨 👑\nEND:VCARD`;
-        await mconn.conn.sendMessage(nk.from, {contacts: {displayName: '𝐁𝐫𝐮𝐧𝐨 𝐒𝐨𝐛𝐫𝐢𝐧𝐨 👑', contacts: [{vcard}]}}, {quoted: callmsg});
+        const vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;𝑈𝑁𝐼𝐹𝐼𝑁𝐸𝐷 ;;;\nFN:𝑈𝑁𝐼𝐹𝐼𝑁𝐸𝐷 👑\nORG:𝑈𝑁𝐼𝐹𝐼𝑁𝐸𝐷 👑\nTITLE:\nitem1.TEL;waid=50258115623:+50250101139\nitem1.X-ABLabel:𝑈𝑁𝐼𝐹𝐼𝑁𝐸𝐷\nX-WA-BIZ-DESCRIPTION:[❗] 𝑐𝑜𝑛𝑡𝑎𝑐𝑡𝑎 𝑎 𝑒𝑠𝑡𝑒 𝑛𝑢𝑚 𝑝𝑎𝑟𝑎 𝑐𝑜𝑠𝑎𝑠 𝑖𝑚𝑝𝑜𝑟𝑡𝑎𝑛𝑡𝑒𝑠.\nX-WA-BIZ-NAME:𝑈𝑁𝐼𝐹𝐼𝑁𝐸𝐷\nEND:VCARD`;
+        await mconn.conn.sendMessage(nk.from, {contacts: {displayName: '𝑈𝑁𝐼𝐹𝐼𝑁𝐸𝐷', contacts: [{vcard}]}}, {quoted: callmsg});
         await mconn.conn.updateBlockStatus(nk.from, 'block');
       }
     }
@@ -1539,16 +1539,16 @@ let date = d.toLocaleDateString('es', { day: 'numeric', month: 'long', year: 'nu
 
 global.dfail = (type, m, conn) => {
   const msg = {
-    rowner: '*[ ⚠️ ] Este comando solo puede ser utilizado por el/la propietario(a) (owner) del Bot.*',
-    owner: '*[ ⚠️ ] Este comando solo puede ser utilizado por el/la propietario(a) (owner) del Bot.*',
-    mods: '*[ ⚠️ ] Este comando solo puede ser utilizado por moderadores y el/la propietario(a) (owner) del Bot.*',
+    rowner: '*[ ⚠️ ] 𝐸𝑠𝑡𝑒 𝑐𝑜𝑚𝑎𝑛𝑑𝑜 𝑠𝑜𝑙𝑜 𝑝𝑢𝑒𝑑𝑒 𝑠𝑒𝑟 𝑢𝑡𝑖𝑙𝑖𝑧𝑎𝑑𝑜 𝑝𝑜𝑟 𝑒𝑙/𝑙𝑎 𝑝𝑟𝑜𝑝𝑖𝑒𝑡𝑎𝑟𝑖𝑜(𝑎)  𝑑𝑒𝑙 𝐵𝑜𝑡.*',
+    owner: '*[ ⚠️ ] 𝐸𝑠𝑡𝑒 𝑐𝑜𝑚𝑎𝑛𝑑𝑜 𝑠𝑜𝑙𝑜 𝑝𝑢𝑒𝑑𝑒 𝑠𝑒𝑟 𝑢𝑡𝑖𝑙𝑖𝑧𝑎𝑑𝑜 𝑝𝑜𝑟 𝑒𝑙/𝑙𝑎 𝑝𝑟𝑜𝑝𝑖𝑒𝑡𝑎𝑟𝑖𝑜(𝑎) 𝑑𝑒𝑙 𝐵𝑜𝑡.*',
+    mods: '*[ ⚠️ ] 𝐸𝑠𝑡𝑒 𝑐𝑜𝑚𝑎𝑛𝑑𝑜 𝑠𝑜𝑙𝑜 𝑝𝑢𝑒𝑑𝑒 𝑠𝑒𝑟 𝑢𝑡𝑖𝑙𝑖𝑧𝑎𝑑𝑜 𝑝𝑜𝑟 𝑚𝑜𝑑𝑒𝑟𝑎𝑑𝑜𝑟𝑒𝑠 𝑦 𝑒𝑙/𝑙𝑎 𝑝𝑟𝑜𝑝𝑖𝑒𝑡𝑎𝑟𝑖𝑜(𝑎) 𝑑𝑒𝑙 𝐵𝑜𝑡.*',
     premium: '*[ ⚠️ ] Este comando solo puede ser utilizado por usarios premium y el/la propietario(a) (owner) del Bot.*',
     group: '*[ ⚠️ ] Este comando solo puede ser utilizado en grupos.*',
     private: '*[ ⚠️ ] Este comando solo puede ser utilizado en el chat privado del Bot.*',
     admin: '*[ ⚠️ ] Este comando solo puede ser usado por admins del grupo.*',
     botAdmin: '*[ ⚠️ ] Para poder usar este comando es necesario que yo sea admin.*',
     unreg: '*[ 🛑 Hey!! Alto, no estas registrado 🛑 ]*\n\n*—◉ Para poder usar este comando debes registrarte, usa el comando:*\n*➣ #verificar nombre.edad*',
-    restrict: '*[ ⚠️ ] Este comando esta restringido/desactivado por desición del propietario(a) (owner) del Bot.*',
+    restrict: '*[ ⚠️ ] 𝐸𝑠𝑡𝑒 𝑐𝑜𝑚𝑎𝑛𝑑𝑜 𝑒𝑠𝑡𝑎 𝑟𝑒𝑠𝑡𝑟𝑖𝑛𝑔𝑖𝑑𝑜/𝑑𝑒𝑠𝑎𝑐𝑡𝑖𝑣𝑎𝑑𝑜 𝑝𝑜𝑟 𝑑𝑒𝑠𝑖𝑐𝑖𝑜́𝑛 𝑑𝑒𝑙 𝑝𝑟𝑜𝑝𝑖𝑒𝑡𝑎𝑟𝑖𝑜(𝑎) 𝑑𝑒𝑙 𝐵𝑜𝑡.*',
   }[type];
   const aa = {quoted: m, userJid: conn.user.jid};
   const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: '[ ⚠ ] 𝐀𝐕𝐈𝐒𝐎 - 𝐀𝐋𝐄𝐑𝐓𝐀', body: 'ᴛʜᴇ ᴍʏsᴛɪᴄ - ʙᴏᴛ', thumbnail: imagen1, sourceUrl: 'https://github.com/BrunoSobrino/TheMystic-Bot-MD'}}}}, aa);
