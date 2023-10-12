@@ -1497,7 +1497,7 @@ export async function callUpdate(callUpdate) {
   for (const nk of callUpdate) {
     if (nk.isGroup == false) {
       if (nk.status == 'offer') {
-        const callmsg = await mconn.conn.reply(nk.from, `Hola *@${nk.from.split('@')[0]}*, las ${nk.isVideo ? '𝑣𝑖𝑑𝑒𝑜𝑙𝑙𝑎𝑚𝑎𝑑𝑎𝑠 : '𝑙𝑙𝑎𝑚𝑎𝑑𝑎𝑠} no 𝑒𝑠𝑡𝑎́𝑛 𝑝𝑒𝑟𝑚𝑖𝑡𝑖𝑑𝑎𝑠, 𝑠𝑒𝑟𝑎́𝑠 𝑏𝑙𝑜𝑞𝑢𝑒𝑎𝑑𝑜.\n-\𝑛𝑆𝑖 𝑎𝑐𝑐𝑖𝑑𝑒𝑛𝑡𝑎𝑙𝑚𝑒𝑛𝑡𝑒 𝑙𝑙𝑎𝑚𝑎𝑠𝑡𝑒 𝑝𝑜́𝑛𝑔𝑎𝑠𝑒 𝑒𝑛 𝑐𝑜𝑛𝑡𝑎𝑐𝑡𝑜 𝑐𝑜𝑛 𝑚𝑖 𝑐𝑟𝑒𝑎𝑑𝑜𝑟 𝑝𝑎𝑟𝑎 𝑞𝑢𝑒 𝑡𝑒 𝑑𝑒𝑠𝑏𝑙𝑜𝑞𝑢𝑒𝑒!`, false, {mentions: [nk.from]});
+        const callmsg = await mconn.conn.reply(nk.from, `Hola *@${nk.from.split('@')[0]}*, las ${nk.isVideo ? 'videollamadas' : '𝑙𝑙𝑎𝑚𝑎𝑑𝑎𝑠'} no 𝑒𝑠𝑡𝑎́𝑛 𝑝𝑒𝑟𝑚𝑖𝑡𝑖𝑑𝑎𝑠, 𝑠𝑒𝑟𝑎́𝑠 𝑏𝑙𝑜𝑞𝑢𝑒𝑎𝑑𝑜.\n-\𝑛𝑆𝑖 𝑎𝑐𝑐𝑖𝑑𝑒𝑛𝑡𝑎𝑙𝑚𝑒𝑛𝑡𝑒 𝑙𝑙𝑎𝑚𝑎𝑠𝑡𝑒 𝑝𝑜́𝑛𝑔𝑎𝑠𝑒 𝑒𝑛 𝑐𝑜𝑛𝑡𝑎𝑐𝑡𝑜 𝑐𝑜𝑛 𝑚𝑖 𝑐𝑟𝑒𝑎𝑑𝑜𝑟 𝑝𝑎𝑟𝑎 𝑞𝑢𝑒 𝑡𝑒 𝑑𝑒𝑠𝑏𝑙𝑜𝑞𝑢𝑒𝑒!`, false, {mentions: [nk.from]});
         // let data = global.owner.filter(([id, isCreator]) => id && isCreator)
         // await this.sendContact(nk.from, data.map(([id, name]) => [id, name]), false, { quoted: callmsg })
         const vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;𝑈𝑁𝐼𝐹𝐼𝑁𝐸𝐷 ;;;\nFN:𝑈𝑁𝐼𝐹𝐼𝑁𝐸𝐷 👑\nORG:𝑈𝑁𝐼𝐹𝐼𝑁𝐸𝐷 👑\nTITLE:\nitem1.TEL;waid=50258115623:+50250101139\nitem1.X-ABLabel:𝑈𝑁𝐼𝐹𝐼𝑁𝐸𝐷\nX-WA-BIZ-DESCRIPTION:[❗] 𝑐𝑜𝑛𝑡𝑎𝑐𝑡𝑎 𝑎 𝑒𝑠𝑡𝑒 𝑛𝑢𝑚 𝑝𝑎𝑟𝑎 𝑐𝑜𝑠𝑎𝑠 𝑖𝑚𝑝𝑜𝑟𝑡𝑎𝑛𝑡𝑒𝑠.\nX-WA-BIZ-NAME:𝑈𝑁𝐼𝐹𝐼𝑁𝐸𝐷\nEND:VCARD`;
