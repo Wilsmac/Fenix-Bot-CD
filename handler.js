@@ -1551,7 +1551,7 @@ global.dfail = (type, m, conn) => {
     restrict: '*[ ⚠️ ] 𝐸𝑠𝑡𝑒 𝑐𝑜𝑚𝑎𝑛𝑑𝑜 𝑒𝑠𝑡𝑎 𝑟𝑒𝑠𝑡𝑟𝑖𝑛𝑔𝑖𝑑𝑜/𝑑𝑒𝑠𝑎𝑐𝑡𝑖𝑣𝑎𝑑𝑜 𝑝𝑜𝑟 𝑑𝑒𝑠𝑖𝑐𝑖𝑜́𝑛 𝑑𝑒𝑙 𝑝𝑟𝑜𝑝𝑖𝑒𝑡𝑎𝑟𝑖𝑜(𝑎) 𝑑𝑒𝑙 𝐵𝑜𝑡.*',
   }[type];
   const aa = {quoted: m, userJid: conn.user.jid};
-  const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: '[ ⚠ ] 𝐀𝐕𝐈𝐒𝐎 - 𝐀𝐋𝐄𝐑𝐓𝐀', body: 'ᴛʜᴇ ᴍʏsᴛɪᴄ - ʙᴏᴛ', thumbnail: imagen1, sourceUrl: 'https://github.com/BrunoSobrino/TheMystic-Bot-MD'}}}}, aa);
+  const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: '[ ⚠ ] 𝐀𝐕𝐈𝐒𝐎 - 𝐀𝐋𝐄𝐑𝐓𝐀', body: ' 𝐹𝐸𝑁𝐼𝑋- 𝐵𝑂𝑇 -𝐶𝐷, thumbnail: imagen1, sourceUrl: 'https://github.com/Wilsmac/Fenix-Bot-CD'}}}}, aa);
   if (msg) return conn.relayMessage(m.chat, prep.message, {messageId: prep.key.id});
 };
 
