@@ -5,30 +5,30 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
 
 --------------------------------
 
-*Opción:* 🌎 | MODO PUBLICO
-*Comando:* ${usedPrefix + command} public
-*Descripción:* El Bot se vuelve de uso publico y/o privado.
-*Nota:* Este comando solo podrá ser usado por owners del Bot.
+*𝑂𝑝𝑐𝑖𝑜́𝑛:* ☆ | 𝑀𝑂𝐷𝑂 𝑃𝑈𝐵𝐿𝐼𝐶𝑂
+*𝐶𝑜𝑚𝑎𝑛𝑑𝑜:* ${usedPrefix + command} public
+*𝐷𝑒𝑠𝑐𝑟𝑖𝑝𝑐𝑖𝑜́𝑛:* 𝐸𝑙 𝐵𝑜𝑡 𝑠𝑒 𝑣𝑢𝑒𝑙𝑣𝑒 𝑑𝑒 𝑢𝑠𝑜 𝑝𝑢𝑏𝑙𝑖𝑐𝑜 𝑦/𝑜 𝑝𝑟𝑖𝑣𝑎𝑑𝑜.
+*𝑁𝑜𝑡𝑎:* 𝐸𝑠𝑡𝑒 𝑐𝑜𝑚𝑎𝑛𝑑𝑜 𝑠𝑜𝑙𝑜 𝑝𝑜𝑑𝑟 𝑠𝑒𝑟 𝑢𝑠𝑎𝑑𝑜 𝑝𝑜𝑟 𝑀𝑖 𝑃𝑟𝑜𝑝𝑖𝑒𝑡𝑎𝑟𝑖𝑜(𝐴) del Bot.
 
 --------------------------------
 
-*Opción:* 🥵 | MODO HORNY
-*Comando:* ${usedPrefix + command} modohorny
-*Descripción:* Activa o desactiva los comandos +18 en el grupo.
+*𝑂𝑝𝑐𝑖𝑜́𝑛:* 🥵 | 𝑀𝑂𝐷𝑂 𝐻𝑂𝑅𝑁𝑌
+*𝐶𝑜𝑚𝑎𝑛𝑑𝑜:* ${usedPrefix + command} modohorny
+*𝐷𝑒𝑠𝑐𝑟𝑖𝑝𝑐𝑖:* 𝐴𝑐𝑡𝑖𝑣𝑎 𝑜 𝑑𝑒𝑠𝑎𝑐𝑡𝑖𝑣𝑎 𝑙𝑜𝑠 𝑐𝑜𝑚𝑎𝑛𝑑𝑜𝑠 +18 𝑒𝑛 𝑒𝑙 𝑔𝑟𝑢𝑝𝑜.
 
 --------------------------------
 
-*Opción:* 🔗 | ANTILINK
-*Comando:* ${usedPrefix + command} antilink
-*Descripción:* Activa o desactiva el anti-enlaces de WhatsApp.
-*Nota:* Se necesita tener activo el restrict.
+*𝑂𝑝𝑐𝑖𝑜́𝑛:* 🔗 | 𝐴𝑁𝑇𝐼𝐿𝐼𝑁𝐾
+*𝐶𝑜𝑚𝑎𝑛𝑑𝑜:* ${usedPrefix + command} antilink
+*𝐷𝑒𝑠𝑐𝑟𝑖𝑝𝑐𝑖:* 𝐴𝑐𝑡𝑖𝑣𝑎 𝑜 𝑑𝑒𝑠𝑎𝑐𝑡𝑖𝑣𝑎 𝑒𝑙 𝑎𝑛𝑡𝑖-𝑒𝑛𝑙𝑎𝑐𝑒 𝑑𝑒 𝑊ℎ𝑎𝑡𝑠𝐴𝑝𝑝.
+*𝑁𝑜𝑡𝑎:* 𝑆𝑒 𝑛𝑒𝑐𝑒𝑠𝑖𝑡𝑎 𝑡𝑒𝑛𝑒𝑟 𝑎𝑐𝑡𝑖𝑣𝑜 𝑒𝑙 𝑟𝑒𝑠𝑡𝑟𝑖𝑐𝑡.
 
 --------------------------------
 
-*Opción:* 🔗 | ANTILINK 2
-*Comando:* ${usedPrefix + command} antilink2
-*Descripción:* Activa o desactiva el anti-enlaces que inician en HTTPS.
-*Nota:* Se necesita tener activo el restrict.
+*𝑂𝑝𝑐𝑖:* 🔗 | 𝐴𝑁𝑇𝐼𝐿𝐼𝑁𝐾 2
+*𝐶𝑜𝑚𝑎𝑛𝑑𝑜:* ${usedPrefix + command} antilink2
+*𝐷𝑒𝑠𝑐𝑟𝑖𝑝𝑐𝑖𝑜́𝑛:* Activa o desactiva el anti-enlaces que inician en HTTPS.
+*𝑁𝑜𝑡𝑎:* Se necesita tener activo el restrict.
 
 --------------------------------
 
