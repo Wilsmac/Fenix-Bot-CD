@@ -29,8 +29,8 @@ lista.push([conn.user.jid.split('@')[0], await conn.getName(conn.user.jid), 'pac
 await conn.sendContactArray(m.chat, lista, null, { quoted: fkontak })
   
 } catch (e) {
-await m.reply('eror') + '\n*' + 'Error algo salio mal' + '*\n*' + usedPrefix + `'es' == 'es' ? 'reporte' : 'report'}` + '* ' + `'Error'} ` + usedPrefix + command)
-console.log(`❗❗ error algo salio mal} ${usedPrefix + command} ❗❗`)
+await m.reply('eror'  + '\n*' + 'Error algo salio mal' + '*\n*' + usedPrefix + `'es' == 'es' ? 'reporte' : 'report'}` + '* ' + `'Error'} ` + usedPrefix + command)
+console.log(`❗❗ error algo salio mal' ${usedPrefix + command} ❗❗`)
 console.log(e)}} 
 handler.command = /^(contactos?|contacts?)$/i //['contacto', 'contact']  
 
