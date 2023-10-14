@@ -3,16 +3,6 @@ let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status
 const data = global.owner.filter(([id, isCreator]) => id && isCreator) 
 this.sendContact(m.chat, data.map(([id, name]) => [id, name]), fkontak, { contextInfo: { externalAdReply: { showAdAttribution: true }}})
 }
-//CÓDIGO CREADO GRACIAS A https://github.com/Azami19 & https://github.com/GataNina-Li
-//Puedes editar el país,enlaces, los números se editan desde el config.js
-import fetch from 'node-fetch'
-
-let handler = async (m, { conn, usedPrefix, text, args, command }) => {
-try{
-let contact, number, ofc, nombre, description, correo, lugar, enlace, biog
-let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
-let biografiaBot = await conn.fetchStatus(conn.user.jid.split('@')[0] + '@s.whatsapp.net').catch(_ => 'undefined')
-let bioBot = biografiaBot.status?.toString() || `${desc2 == '' ? lenguajeGB.smsContacto1() : desc2}`
 
 let contacts = global.official.filter(c => c[2] === 1)
 let lista = []
