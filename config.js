@@ -12,7 +12,9 @@ global.botnumber = ""
 global.owner = [
   ['50258115623', '👑 Fenix- Creador 👑', true],
   ['50250101139', 'Fenix- colaborador', true],
-  ['14077384440'], ['19042018926']
+  ['14077384440', 'Owner', true],
+  ['19042018926', 'creador', true],
+  ['50253077417']
 ];
 
 global.suittag = ['50258115623'];
