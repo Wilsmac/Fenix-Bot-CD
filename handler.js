@@ -1543,15 +1543,15 @@ global.dfail = (type, m, conn) => {
     owner: '*[ ⚠️ ] Este comando solo puede ser utilizado por el/la propietario(a) (owner) del Bot.*',
     mods: '*[ ⚠️ ] Este comando solo puede ser utilizado por moderadores y el/la propietario(a) (owner) del Bot.*',
     premium: '*[ ⚠️ ] Este comando solo puede ser utilizado por usarios premium y el/la propietario(a) (owner) del Bot.*',
-    group: '*[ ⚠️ ] Este comando solo puede ser utilizado en grupos.*',
+    group: '*[ 𖤍 ] 𝐸𝑠𝑡𝑒 𝑐𝑜𝑚𝑎𝑛𝑑𝑜 𝑠𝑜𝑙𝑜 𝑝𝑢𝑒𝑑𝑒 𝑠𝑒𝑟 𝑢𝑡𝑖𝑙𝑖𝑧𝑎𝑑𝑜 𝑒𝑛 𝑔𝑟𝑢𝑝𝑜𝑠.*',
     private: '*[ ⚠️ ] Este comando solo puede ser utilizado en el chat privado del Bot.*',
     admin: '*[ ⚠️ ] Este comando solo puede ser usado por admins del grupo.*',
     botAdmin: '*[ ⚠️ ] Para poder usar este comando es necesario que yo sea admin.*',
     unreg: '*[ 🛑 Hey!! Alto, no estas registrado 🛑 ]*\n\n*—◉ Para poder usar este comando debes registrarte, usa el comando:*\n*➣ #verificar nombre.edad*',
-    restrict: '*[ ⚠️ ] Este comando esta restringido/desactivado por desición del propietario(a) (owner) del Bot.*',
+    restrict: '*[ ⚠️ ] 𝐸𝑠𝑡𝑒 𝑐𝑜𝑚𝑎𝑛𝑑𝑜 𝑒𝑠𝑡𝑎 𝑟𝑒𝑠𝑡𝑟𝑖𝑛𝑔𝑖𝑑𝑜/𝑑𝑒𝑠𝑎𝑐𝑡𝑖𝑣𝑎𝑑𝑜 𝑝𝑜𝑟 𝑑𝑒𝑠𝑖𝑐𝑖𝑜́𝑛 𝑑𝑒𝑙 𝑝𝑟𝑜𝑝𝑖𝑒𝑡𝑎𝑟𝑖𝑜(𝑎) del Bot.*',
   }[type];
   const aa = {quoted: m, userJid: conn.user.jid};
-  const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: '[ ⚠ ] 𝐀𝐕𝐈𝐒𝐎 - 𝐀𝐋𝐄𝐑𝐓𝐀', body: 'ᴛʜᴇ ᴍʏsᴛɪᴄ - ʙᴏᴛ', thumbnail: imagen1, sourceUrl: 'https://github.com/BrunoSobrino/TheMystic-Bot-MD'}}}}, aa);
+  const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: '[ 𖤍 ] 𝐀𝐕𝐈𝐒𝐎 - 𝐀𝐋𝐄𝐑𝐓𝐀', body: '𝐹𝑒𝑛𝑖𝑥-𝐵𝑜𝑡-𝐶𝐷', thumbnail: imagen1, sourceUrl: 'https://github.com/Wilsmac/Fenix-Bot-CD'}}}}, aa);
   if (msg) return conn.relayMessage(m.chat, prep.message, {messageId: prep.key.id});
 };
 
