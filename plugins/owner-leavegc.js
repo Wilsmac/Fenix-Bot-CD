@@ -1,6 +1,6 @@
 const handler = async (m, {conn, text, command}) => {
   const id = text ? text : m.chat;
-  await conn.reply(id, lenguajeCD.smsLeave());
+  await conn.reply(id, lenguajGB.smsLeave());
   await conn.groupLeave(id);
 };
 handler.command = /^(salir|leavegc|leave|salirdelgrupo)$/i;
