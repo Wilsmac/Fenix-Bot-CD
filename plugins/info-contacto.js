@@ -29,7 +29,7 @@ lista.push([conn.user.jid.split('@')[0], await conn.getName(conn.user.jid), pack
 await conn.sendContactArray(m.chat, lista, null, { quoted: fkontak })
 
 } catch (e) {
-await m.reply(['nada']() + '\n*' + nada() + '*\n*' + usedPrefix + `${global.oficcial() == 'es' ? 'reporte' : 'report'}` + '* ' + `${global.official} ` + usedPrefix + command)
+await m.reply(['global.oficial']() + '\n*' + nada() + '*\n*' + usedPrefix + `${global.oficcial() == 'es' ? 'reporte' : 'report'}` + '* ' + `${global.official} ` + usedPrefix + command)
 console.log(`❗❗ ${lenguajeGB['smsMensError2']()} ${usedPrefix + command} ❗❗`)
 console.log(e)}} 
 handler.command = /^(contactos?|contacts?)$/i //['contacto', 'contact']  
