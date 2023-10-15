@@ -25,11 +25,11 @@ lugar = official[0][0] == String(contact[0]) ? '🇪🇨 Ecuador' : official[1][
 enlace = official[0][0] == String(contact[0]) ? 'https://github.com/GataNina-Li' : official[1][0] == String(contact[0]) ? 'https://github.com/elrebelde21' : official[2][0] == String(contact[0]) ? 'https://github.com/Azami19' : official[3][0] == String(contact[0]) ? 'https://github.com/Abiguelreyes75' : md 
    
 lista.push([number, ofc, nombre, description, official[3][0] == String(contact[0]) ? null : correo, lugar, enlace, bio, official[1][0] == String(contact[0]) ? 'https://www.youtube.com/@TheLoliBot-MD' : null]) }  
-lista.push([conn.user.jid.split('@')[0], await conn.getName(conn.user.jid), packname, lenguajeGB.smsContacto8(), mail === '' ? 'centergatabot@gmail.com' : mail, 'holi', md, bioBot, yt, ig, fb, paypal, nna])
+lista.push([conn.user.jid.split('@')[0], await conn.getName(conn.user.jid), packname, 'esta cuenta es bot', mail === '' ? 'centergatabot@gmail.com' : mail, 'holi', md, bioBot, yt, ig, fb, paypal, nna])
 await conn.sendContactArray(m.chat, lista, null, { quoted: fkontak })
   
 } catch (e) {
-await m.reply('error algo salio mal' + '\n*' + 'Error' + '*\n*' + usedPrefix + `${lenguajeGB.lenguaje() == 'es' ? 'reporte' : 'report'}` + '* ' + `reporte este comando ` + usedPrefix + command)
+await m.reply('error algo salio mal' + '\n*' + 'Error' + '*\n*' + usedPrefix + ` == 'es' ? 'reporte' : 'report'}` + '* ' + `reporte este comando ` + usedPrefix + command)
 console.log(`❗❗ alerta algo salio mal ${usedPrefix + command} ❗❗`)
 console.log(e)}} 
 handler.command = /^(contactos?|contacts?)$/i //['contacto', 'contact']  
