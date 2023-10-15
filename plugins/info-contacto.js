@@ -28,10 +28,6 @@ lista.push([number, ofc, nombre, description, official[3][0] == String(contact[0
 lista.push([conn.user.jid.split('@')[0], await conn.getName(conn.user.jid), packname, 'esta cuenta es bot', mail === '' ? 'centergatabot@gmail.com' : mail, 'holi', md, bioBot, yt, ig, fb, paypal, nna])
 await conn.sendContactArray(m.chat, lista, null, { quoted: fkontak })
   
-} catch (e) {
-await m.reply('error algo salio mal' + '\n*' + 'Error' + '*\n*' + usedPrefix + `${lenguajeGB.lenguaje() == 'es' ? 'reporte' : 'report'}` + '* ' + `reporte este comando ` + usedPrefix + command)
-console.log(`❗❗ alerta algo salio mal ${usedPrefix + command} ❗❗`)
-console.log(e)}} 
 handler.command = /^(contactos?|contacts?)$/i //['contacto', 'contact']  
 
 export default handler
