@@ -109,8 +109,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 ```bash
 ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > cd 
-> cd Mystic-termux
-> rm -rf MysticSession
+> rm -rf FenixSession
 > npm start
 ```
 
