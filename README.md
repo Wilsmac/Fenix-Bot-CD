@@ -21,7 +21,9 @@
 
 > LOS NUMEROS NO SON BOTS Y EN EL GRUPO NO SE PERMITEN NUMEROS QUE SEAN BOTS
 
-### `—◉ 🤖 BOTS OFICIALES 🤖`
+<p align="center"> 
+<a href="https://github.com/Wilsmac"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=15&duration=4000&color=[00FFFF]&center=falso&vCenter=falso&lines=Fenix-Bot-CD++;𝐵𝑜𝑡𝑠+𝑂𝑓𝑖𝑐𝑎𝑙𝑒𝑠+𝑑𝑒" height="100px"></a> 
+</p>
 
 <a href="https://api.whatsapp.com/send/?phone=5219991402134&text=/estado&type=phone_number&app_absent=0" target="blank"><img src="https://img.shields.io/badge/BOT_OFICIAL_1-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
@@ -29,24 +31,26 @@
 
  > NO SPAMEAR COMANDOS
 
-### `—◉ 💰 DONAR 💰`
-- AGRADECE CON UNA DONACION VOLUNTARIA [Aqui](https://www.paypal.me/TheShadowBrokers133)
 
-### `—◉ 🖍 LETRA DEL BOT 🖍`
-- PAGINA USADA PARA LA LETRA [Aqui](https://smiley.cool/es/weirdmaker.php)
 
-### `—◉ 💕 PLUGINS 💕`
+<p align="center"> 
+<a href="https://github.com/Wilsmac"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=15&duration=4000&color=[00FFFF]&center=falso&vCenter=falso&lines=𝐹𝑒𝑛𝑖𝑥-𝐵𝑜𝑡++;𝑚𝑎́𝑠+𝑝𝑢𝑙𝑖𝑛𝑔𝑠+𝑝𝑎𝑟𝑎+𝑒𝑙+𝐵𝑜𝑡" height="100px"></a> 
+</p>
 - TIENES IDEAS DE PLUGINS O QUIERES OBTENER MAS PLUGINS? DA CLICK EN [https://github.com/theh2so4/Mystic-Plugins](https://github.com/theh2so4/Mystic-Plugins)
 
-### `—◉ ⚙️ AJUSTES ⚙️`
-- CLONAR EL REPOSITORIO [Aqui](https://github.com/BrunoSobrino/TheMystic-Bot-MD/fork)
-- CAMBIAR NÚMERO DEL OWNER [Aqui](https://github.com/BrunoSobrino/TheMystic-Bot-MD/blob/master/config.js)
+<p align="center"> 
+<a href="https://github.com/Wilsmac"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=15&duration=4000&color=[00FFFF]&center=falso&vCenter=falso&lines=Fenix-Bot-CD++;𝐶𝑂𝑁𝐹𝐼𝐺𝑈𝑅𝐴𝐶𝐼𝑂́𝑁+𝑃𝐴𝑅𝐴" height="100px"></a> 
+</p>
+- CLONAR EL REPOSITORIO [Aqui](https://github.com/Wilsmac/Fenix-Bot-CD/fork)
+- CAMBIAR NÚMERO DEL OWNER [Aqui](https://github.com/Wilsmac/Fenix-Bot-CD/blob/master/config.js)
   
 ### `—◉ 💥 ACTIVAR EN KOYEB 💥`
 
 [![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=https://github.com/BrunoSobrino/TheMystic-Bot-MD&branch=master&name=mysticbot)
   
-### `—◉ 🌌 ACTIVAR EN REPLIT 🌌`
+<p align="center"> 
+<a href="https://github.com/Wilsmac"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=15&duration=4000&color=[00FFFF]&center=falso&vCenter=falso&lines=replit++;activa+el+bot+en" height="100px"></a> 
+</p>
 
 [![Run on Repl.it](https://repl.it/badge/github/BrunoSobrino/TheMystic-Bot-MD)](https://repl.it/github/BrunoSobrino/TheMystic-Bot-MD) 
   
