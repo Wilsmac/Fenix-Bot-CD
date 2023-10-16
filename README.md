@@ -1,6 +1,3 @@
-<a href="https://github.com/Wilsmac" target="black"><img src="https://img.shields.io/badge/♥️-clona_el_repositorio-000000?style=for-the-badge&logo=GitHub&logoColor=black" /></a>
-
-
 
 <p align="center"> 
 <a href="https://github.com/Wilsmac/Fenix-Bot-CD"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=15&duration=4000&color=[00FFFF]&center=falso&vCenter=falso&lines=𝐹𝐸𝑁𝐼𝑋-𝐵𝑂𝑇-𝐶𝐷++;𝐻𝑂𝐿𝐴+𝐺𝑅𝐴𝐶𝐼𝐴𝑆+𝑃𝑂𝑅+𝑉𝐼𝑆𝐼𝑇𝐴𝑅+𝐸𝐿+𝑅𝐸𝑃𝑂𝑆𝐼𝑇𝑂𝑅𝐼𝑂" height="100px"></a> 
@@ -38,14 +35,12 @@
 
 
 <p align="center"> 
-<a href="https://github.com/Wilsmac"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=15&duration=4000&color=[00FFFF]&center=falso&vCenter=falso&lines=𝐹𝑒𝑛𝑖𝑥-𝐵𝑜𝑡++;𝑚𝑎́𝑠+𝑝𝑢𝑙𝑖𝑛𝑔𝑠+𝑝𝑎𝑟𝑎+𝑒𝑙+𝐵𝑜𝑡" height="100px"></a> 
-</p>
-- TIENES IDEAS DE PLUGINS O QUIERES OBTENER MAS PLUGINS? DA CLICK EN [https://github.com/theh2so4/Mystic-Plugins](https://github.com/theh2so4/Mystic-Plugins)
 
 <p align="center"> 
 <a href="https://github.com/Wilsmac"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=15&duration=4000&color=[00FFFF]&center=falso&vCenter=falso&lines=Fenix-Bot-CD++;𝐶𝑂𝑁𝐹𝐼𝐺𝑈𝑅𝐴𝐶𝐼𝑂́𝑁+𝑃𝐴𝑅𝐴" height="100px"></a> 
-</p>
-- CLONAR EL REPOSITORIO [Aqui](https://github.com/Wilsmac/Fenix-Bot-CD/fork)
+
+ <a href="https://github.com/Wilsmac" target="black"><img src="https://img.shields.io/badge/♥️-clona_el_repositorio-000000?style=for-the-badge&logo=GitHub&logoColor=black" /></a>
+
 - CAMBIAR NÚMERO DEL OWNER [Aqui](https://github.com/Wilsmac/Fenix-Bot-CD/blob/master/config.js)
   
 ### `—◉ 💥 ACTIVAR EN KOYEB 💥`
