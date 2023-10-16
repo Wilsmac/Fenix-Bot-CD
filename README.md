@@ -70,9 +70,11 @@ pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn
 ```
 
 ```
-git clone https://github.com/Wilsmac/Fenix-Bot-CD.git && cd Fenix-Bot-CD
+git clone https://github.com/Wilsmac/Fenix-Bot-CD.git
 ```
-
+```bash
+cd Fenix-Bot-CD
+```
 ```
 yarn install
 ```
