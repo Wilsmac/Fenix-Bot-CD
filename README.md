@@ -1,6 +1,6 @@
 
 <p align="center"> 
-<a href="https://github.com/Wilsmac/Fenix-Bot-CD"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=15&duration=4000&color=[00FFFF]&center=falso&vCenter=falso&lines=𝐹𝐸𝑁𝐼𝑋-𝐵𝑂𝑇-𝐶𝐷++;𝐻𝑂𝐿𝐴+𝐺𝑅𝐴𝐶𝐼𝐴𝑆+𝑃𝑂𝑅+𝑉𝐼𝑆𝐼𝑇𝐴𝑅+𝐸𝐿+𝑅𝐸𝑃𝑂𝑆𝐼𝑇𝑂𝑅𝐼𝑂" height="100px"></a> 
+<a href="https://github.com/Wilsmac/Fenix-Bot-CD"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=17&duration=4000&color=[00FFFF]&center=falso&vCenter=falso&lines=𝐹𝐸𝑁𝐼𝑋-𝐵𝑂𝑇-𝐶𝐷++;𝐻𝑂𝐿𝐴+𝐺𝑅𝐴𝐶𝐼𝐴𝑆+𝑃𝑂𝑅+𝑉𝐼𝑆𝐼𝑇𝐴𝑅+𝐸𝐿+𝑅𝐸𝑃𝑂𝑆𝐼𝑇𝑂𝑅𝐼𝑂" height="100px"></a> 
 </p>
  
 
@@ -16,7 +16,7 @@
 </p>
  
 
-<a href="https://chat.whatsapp.com/FRkr7jJHSJA5OjVtE64dDs" target="blank"><img src="https://img.shields.io/badge/GRUPO_DE_SOPORTE_(𝙴𝚂)-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
+<a href="https://chat.whatsapp.com/EAxOACyzjB6JhkRvQvw4zl" target="blank"><img src="https://img.shields.io/badge/Grupo-OfiCIAL DEL BOT-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
 
 <a href="https://chat.whatsapp.com/FRkr7jJHSJA5OjVtE64dDs" target="blank"><img src="https://img.shields.io/badge/SUPPORT_GROUP_(EN)-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
 
