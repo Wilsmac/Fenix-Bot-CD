@@ -55,24 +55,25 @@
  <p align="center"> 
 <a href="https://github.com/Wilsmac"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=20&duration=3000&color=[00FFFF]&center=falso&vCenter=falso&lines=Termux++;activa+el+Bot+en" height="150px"></a> 
 </p>
+
 - ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
-```bash
+```
 cd && termux-setup-storage
 ```
 
-```bash
+```
 apt-get update -y && apt-get upgrade -y
 ```
 
-```bash
+```
 pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn 
 ```
 
-```bash
+```
 git clone https://github.com/BrunoSobrino/TheMystic-Bot-MD.git && cd TheMystic-Bot-MD
 ```
 
-```bash
+```
 yarn install
 ```
 
