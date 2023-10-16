@@ -1,7 +1,5 @@
-<a href="https://github.com/Wilsmac" target="black"><img src="https://img.shields.io/badge/clona_el_repositorio-00FFFF?style=for-the-badge&logo=GitHub&logoColor=black" /></a>
-00FFFF
+<a href="https://github.com/Wilsmac" target="black"><img src="https://img.shields.io/badge/clona_el_repositorio-000000style=for-the-badge&logo=GitHub&logoColor=black" /></a>
 
-25D366
 
 
 <p align="center"> 
