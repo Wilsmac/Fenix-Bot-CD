@@ -53,7 +53,7 @@
   
 
  <p align="center"> 
-<a href="https://github.com/Wilsmac"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=15&duration=3000&color=[00FFFF]&center=falso&vCenter=falso&lines=Termux++;activa+el+Bot+en" height="100px"></a> 
+<a href="https://github.com/Wilsmac"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=20&duration=3000&color=[00FFFF]&center=falso&vCenter=falso&lines=Termux++;activa+el+Bot+en" height="150px"></a> 
 </p>
 - ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 ```bash
