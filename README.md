@@ -9,11 +9,11 @@
 > Fenix-Bot-CD pasa a quedar en manos de colaboradores, y como principal representante UNIFINED
 ------------------
 
-### `—◉ 🔗 CUENTAS OFICIALES 🔗`
 
-* https://www.atom.bio/Wilsmac
-
-### `—◉ 💟 GRUPO DE SOPORTE 💟`
+<p align="center"> 
+<a href="https://github.com/Wilsmac"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=15&duration=4000&color=[00FFFF]&center=falso&vCenter=falso&lines=Fenix-Bot-CD++;Grupos+Oficales+de" height="100px"></a> 
+</p>
+ 
 
 <a href="https://chat.whatsapp.com/FRkr7jJHSJA5OjVtE64dDs" target="blank"><img src="https://img.shields.io/badge/GRUPO_DE_SOPORTE_(𝙴𝚂)-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
 
