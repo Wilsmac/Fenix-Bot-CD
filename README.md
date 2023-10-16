@@ -43,21 +43,18 @@
 
 <a href="https://github.com/Wilsmac/Fenix-Bot-CD/blob/master/config.js" target="black"><img src="https://img.shields.io/badge/♥️-Cambiar el owner del bot-000000?style=for-the-badge&logo=GitHub&logoColor=black" /></a>
   
-### `—◉ 💥 ACTIVAR EN KOYEB 💥`
 
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=https://github.com/BrunoSobrino/TheMystic-Bot-MD&branch=master&name=mysticbot)
-  
+ 
 <p align="center"> 
 <a href="https://github.com/Wilsmac"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=15&duration=4000&color=[00FFFF]&center=falso&vCenter=falso&lines=replit++;activa+el+bot+en" height="100px"></a> 
 </p>
 
-[![Run on Repl.it](https://repl.it/badge/github/BrunoSobrino/TheMystic-Bot-MD)](https://repl.it/github/BrunoSobrino/TheMystic-Bot-MD) 
+[![Run on Repl.it](https://repl.it/badge/github/BrunoSobrino/TheMystic-Bot-MD)](https://repl.it/github/Wilsmac/Fenix-Bot-CD) 
   
-### `—◉ 🔰 ACTIVAR EN RENDER 🔰`
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://dashboard.render.com/blueprint/new?repo=https%3A%2F%2Fgithub.com%2FBrunoSobrino%2FTheMystic-Bot-MD) 
-
-### `—◉ 👾 ACTIVAR EN TERMUX 👾` 
+ <p align="center"> 
+<a href="https://github.com/Wilsmac"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=21&duration=45000&color=[00FFFF]&center=falso&vCenter=falso&lines=Termux++;activa+el+Bot+en" height="100px"></a> 
+</p>
 - ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 ```bash
 cd && termux-setup-storage
