@@ -197,7 +197,7 @@ const connectionOptions = {
     creds: state.creds,
     keys: makeCacheableSignalKeyStore(state.keys, pino({level: 'silent'})),
   },
-  browser: ['MysticBot', 'Safari', '1.0.0'],
+  browser: ['Fenix-Bot-CD', 'Edge', '1.0.0'],
   version,
   defaultQueryTimeoutMs: undefined,
 };
@@ -250,13 +250,13 @@ function clearTmp() {
 
 function purgeSession() {
 let prekey = []
-let directorio = readdirSync("./MysticSession")
+let directorio = readdirSync("./FenixSession")
 let filesFolderPreKeys = directorio.filter(file => {
 return file.startsWith('pre-key-') /*|| file.startsWith('session-') || file.startsWith('sender-') || file.startsWith('app-') */
 })
 prekey = [...prekey, ...filesFolderPreKeys]
 filesFolderPreKeys.forEach(files => {
-unlinkSync(`./MysticSession/${files}`)
+unlinkSync(`./FenixSession/${files}`)
 })
 } 
 
@@ -281,7 +281,7 @@ console.log(chalk.bold.red(`=> Algo salio mal durante la eliminación, archivos 
 }}
 
 function purgeOldFiles() {
-const directories = ['./MysticSession/', './jadibts/']
+const directories = ['./FenixSession/', './jadibts/']
 const oneHourAgo = Date.now() - (60 * 60 * 1000)
 directories.forEach(dir => {
 readdirSync(dir, (err, files) => {
@@ -541,7 +541,7 @@ setInterval(async () => {
   if (stopped === 'close' || !conn || !conn.user) return;
   const _uptime = process.uptime() * 1000;
   const uptime = clockString(_uptime);
-  const bio = `🤖 ᴛɪᴇᴍᴘᴏ ᴀᴄᴛɪᴠᴏ: ${uptime} ┃ 👑 ʙʏ ʙʀᴜɴᴏ sᴏʙʀɪɴᴏ ┃ 🔗 ᴄᴜᴇɴᴛᴀs ᴏғᴄ: https://www.atom.bio/theshadowbrokers-team`;
+  const bio = `⌛ 𝑡𝑖𝑒𝑚𝑝𝑜 𝑎𝑐𝑡𝑖𝑣𝑜: ${uptime} ┃ 🌺 𝑏𝑦 𝑊𝐼𝐿𝑀𝐸𝑅-𝑈𝑁𝐼𝐹𝐼𝑁𝐸𝐷┃☃️ 𝐹𝐸𝑁𝐼𝑋-𝐵𝑂𝑇-𝐶𝐷`;
   await conn.updateProfileStatus(bio).catch((_) => _);
 }, 60000);
 function clockString(ms) {
