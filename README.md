@@ -1,4 +1,4 @@
-<a href="https://github.com/Wilsmac" target="blank"><img src="https://img.shields.io/badge/GRUPO_DE_SOPORTE_(𝙴𝚂)-25D366?style=for-the-badge&logo=GitHub&logoColor=black" /></a>
+<a href="https://github.com/Wilsmac" target="blank"><img src="https://img.shields.io/badge/clona_el-repositorio-25D366?style=for-the-badge&logo=GitHub&logoColor=black" /></a>
 
 
 
