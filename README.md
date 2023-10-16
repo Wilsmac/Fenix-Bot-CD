@@ -53,7 +53,7 @@
   
 
  <p align="center"> 
-<a href="https://github.com/Wilsmac"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=20&duration=3000&color=[00FFFF]&center=falso&vCenter=falso&lines=Termux++;activa+el+Bot+en" height="150px"></a> 
+<a href="https://github.com/Wilsmac"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=20&duration=3000&color=[00FFFF]&center=falso&vCenter=falso&lines=Termux++;activa+el+Bot+en" height="100px"></a> 
 </p>
 
 - ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
@@ -70,7 +70,7 @@ pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn
 ```
 
 ```
-git clone https://github.com/BrunoSobrino/TheMystic-Bot-MD.git && cd TheMystic-Bot-MD
+git clone https://github.com/Wilsmac/Fenix-Bot-CD.git && cd Fenix-Bot-CD
 ```
 
 ```
@@ -95,8 +95,8 @@ npm start
 
 ```bash
 ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
-> cd 
-> cd Mystic-termux
+> cd
+> cd Fenix-Bot-CD
 > npm start
 ```
 
@@ -128,6 +128,6 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 
 
 ## `EDITOR & PROPIETARIO DEL BOT` 
-<a href="https://github.com/Wilsmac"><img src="https://github.com/Wilsmac.png" width="250" height="250" alt="Wilsmac"/></a>
+<a href="https://github.com/Wilsmac"><img src="https://github.com/Wilsmac.png" width="250" height="280" alt="Wilsmac"/></a>
   
-`TheMystic-Bot-MD - By Bruno Sobrino`
+`Fenix-Bot-CD - By Wilmer ~ UNIFINED`
