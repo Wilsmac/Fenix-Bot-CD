@@ -577,7 +577,6 @@ var hawemod = [
  }
 loading()    
 };
-      let { key } = await conn.sendMessage(m.chat, {text: `Cargando menu*`}
 handler.command = /^(menu|menú|memu|memú|help|info|comandos|allmenu|2help|menu1.2|ayuda|commands|commandos|cmd)$/i;
 handler.exp = 50;
 handler.fail = null;
