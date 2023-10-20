@@ -568,6 +568,15 @@ var hawemod = [
 "《 ██████████▒▒》80%",
 "《 ████████████》100%"
 ]
+      let { key } = await conn.sendMessage(m.chat, {text: `*☠ cargando menu ☠*`}, {quoted: m})
+ for (let i = 0; i < hawemod.length; i++) {
+   await new Promise(resolve => setTimeout(resolve, 1000)); 
+   await conn.sendMessage(m.chat, {text: hawemod[i], edit: key}, {quoted: m}); 
+  }
+  await conn.sendMessage(m.chat, {text: menu, edit: key, mentions: conn.parseMention(doxeo)}, {quoted: m});         
+ }
+loading()    
+};
       let { key } = await conn.sendMessage(m.chat, {text: `Cargando menu*`}
 handler.command = /^(menu|menú|memu|memú|help|info|comandos|allmenu|2help|menu1.2|ayuda|commands|commandos|cmd)$/i;
 handler.exp = 50;
