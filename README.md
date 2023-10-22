@@ -1,7 +1,7 @@
 <img src="https://telegra.ph/file/4257e73c23a12f04717b3.jpg" height=",70px"> 
 </p>
 </p>
-<p align="center"><img src="https://profile-counter.glitch.me/{Fenix-Bot-CD}/count.svg" alt="Wilsmac :: Visitor's Count" /></p>
+<p align="center"><img src="https://profile-counter.glitch.me/{Wilsmac/Fenix-Bot-CD}/count.svg" alt="Wilsmac :: Visitor's Count" /></p>
 
 </p>
 <p align="center"> 
