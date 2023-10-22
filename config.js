@@ -14,7 +14,7 @@ global.owner = [
   ['50250101139', 'Fenix- colaborador', true],
   ['14077384440', 'Owner', true],
   ['19042018926', 'creador', true],
-  ['50253077417']
+  ['50253077417'], ['51986548489']
 ];
 
 global.suittag = ['50258115623'];
