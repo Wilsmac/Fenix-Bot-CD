@@ -1,4 +1,4 @@
-<img src="<img src="https://telegra.ph/file/82f6db3b1a7ba1adedeae.jpg" height=",70px"> 
+<img src="<img src="https://telegra.ph/file/a1eb3f456470247f28680.jpg" height=",70px"> 
 </p>
 </p>
 <p align="center"> 
