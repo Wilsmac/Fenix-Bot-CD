@@ -23,17 +23,13 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const document = doc[Math.floor(Math.random() * doc.length)];
    const { key } = await conn.sendMessage(m.chat, {text: `${wait}`}, {quoted: m})
 await conn.sendMessage(m.chat, {text: `⁀⸱⁀⸱︵૰⳹․㊪․⳼૰︵⸱⁀⸱⁀․.\n\n┈┈┈Cargando┈⃐ᤢ࣪┈┈\n\n▰▰▰▰ ³⁰ %*`, edit: key})
-await delay(100 * 1)
     await conn.sendMessage(m.chat, {text: `⁀⸱⁀⸱︵૰⳹․㊪․⳼૰︵⸱⁀⸱⁀․.\n\n┈┈┈Cargando┈⃐ᤢ࣪┈┈\n\n▰▰▰▰▰ ⁵⁰  %*`, edit: key})
-await delay(100 * 1)
     await conn.sendMessage(m.chat, {text: `⁀⸱⁀⸱︵૰⳹․㊪․⳼૰︵⸱⁀⸱⁀․.\n\n┈┈┈Cargando┈⃐ᤢ࣪┈┈\n\n▰▰▰▰▰▰ ⁶⁰  %*`, edit: key})
 await conn.sendMessage(m.chat, {text: `⁀⸱⁀⸱︵૰⳹․㊪․⳼૰︵⸱⁀⸱⁀․.\n\n┈┈┈Cargando┈⃐ᤢ࣪┈┈\n\n▰▰▰▰▰▰▰ ⁷⁰ %*`, edit: key})                                               
 await conn.sendMessage(m.chat, {text: `⁀⸱⁀⸱︵૰⳹․㊪․⳼૰︵⸱⁀⸱⁀․.\n\n┈┈┈Cargando┈⃐ᤢ࣪┈┈\n\n▰▰▰▰▰▰▰▰ ⁸⁰  %*`, edit: key})
 await conn.sendMessage(m.chat, {text: `⁀⸱⁀⸱︵૰⳹․㊪․⳼૰︵⸱⁀⸱⁀․.\n\n┈┈┈Cargando┈⃐ᤢ࣪┈┈\n\n▰▰▰▰▰▰▰▰▰ ⁹⁰ %*`, edit: key})
 await conn.sendMessage(m.chat, {text: `⁀⸱⁀⸱︵૰⳹․㊪․⳼૰︵⸱⁀⸱⁀․.\n\n┈┈┈Cargando┈⃐ᤢ࣪┈┈\n\n▰▰▰▰▰▰▰▰▰ ¹⁰⁰ %*`, edit: key})
- try {
-let p = await fg.menu(args[0])
-let te  = `╭═══〘 ✯✯✯✯✯✯✯✯✯ 〙══╮
+const str = `╭═══〘 ✯✯✯✯✯✯✯✯✯ 〙══╮
 ║    𖤍 ${packname}${conn.user.jid == global.conn.user.jid ? '' : `\n║˚₊·˚₊· ͟͟͞͞➳* 𝐹𝐸𝑁𝐼𝑋-𝐵𝑂𝑇-𝐶𝐷 𝑆𝑈𝐵 𝐵𝑂𝑇 ⇢ *@${global.conn.user.jid.split`@`[0]}`}
  𖤍
 ║ ✞͙͙͙͙͙͙͙͙͙͙⏜❟︵ֹ̩̥̩̥̩̥̩̩̥⏜੭🏮୧ֹ⏜︵ֹ̩̥̩̥̩̥̩̥̩̥̩̥̩̥❟⏜፞✞͙͙͙͙͙͙͙͙͙͙. ║
