@@ -22,14 +22,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
    
-    const { key } = await conn.sendMessage(m.chat, {text: `${wait}`}, {quoted: m})
-await delay(1000 * 1)
-await conn.sendMessage(m.chat, {text: `${waitt}`, edit: key})
-await delay(1000 * 1);
-await conn.sendMessage(m.chat, {text: `${waittt}`, edit: key})
-await delay(1000 * 1)
-await conn.sendMessage(m.chat, {text: `${waitttt}`, edit: key})
-      
+    const { key } = await conn.sendMessage(m.chat, {text: `${wait}`}, {quoted: m})     
     const str = `╭═══〘 ✯✯✯✯✯✯✯✯✯ 〙══╮
 ║    𖤍 ${packname}${conn.user.jid == global.conn.user.jid ? '' : `\n║˚₊·˚₊· ͟͟͞͞➳* 𝐹𝐸𝑁𝐼𝑋-𝐵𝑂𝑇-𝐶𝐷 𝑆𝑈𝐵 𝐵𝑂𝑇 ⇢ *@${global.conn.user.jid.split`@`[0]}`}
  𖤍
