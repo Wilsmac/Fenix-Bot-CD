@@ -29,7 +29,7 @@ global.official = [
 
 global.packname = '𝐹𝐸𝑁𝐼𝑋-𝐵𝑂𝑇-𝐶𝐷';
 global.author = '★𝑈𝑁𝐹𝐼𝑁𝐸𝐷-𝑊𝐼𝐿𝑀𝐸𝑅★';
-global.wm = '★𝐹𝐸𝑁𝐼𝑋-𝐵𝑂𝑇-𝐶𝐷𝚝★';
+global.wm = '★𝐹𝐸𝑁𝐼𝑋-𝐵𝑂𝑇-𝐶𝐷★';
 global.titulowm = '✨ 𝐹𝐸𝑁𝐼𝑋-𝐵𝑂𝑇-𝐶𝐷 ✨';
 global.titulowm2 = `乂 𝑭𝑬𝑵𝑰𝑿-𝑩𝑶𝑻-𝑪𝑫  乂`
 global.igfg = '★𝐹𝐸𝑁𝐼𝑋-𝐵𝑂𝑇-𝐶𝐷★';
@@ -53,7 +53,7 @@ global.mes = d.toLocaleDateString('es', {month: 'long'});
 global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `▸ ${dia} ${fecha}\n▸ 𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝`;
+global.wm2 = `▸ ${dia} ${fecha}\n▸ 𝐹𝐸𝑁𝐼𝑋-𝐵𝑂𝑇-𝐶𝐷`;
 global.gt = '★𝐹𝐸𝑁𝐼𝑋-𝐵𝑂𝑇-𝐶𝐷★';
 global.mysticbot = '★𝐹𝐸𝑁𝐼𝑋-𝐵𝑂𝑇-𝐶𝐷★';
 global.md = 'https://github.com/Wilsmac/Fenix-Bot-CD';
@@ -61,7 +61,7 @@ global.mysticbot = 'https://github.com/Wilsmac/Fenix-Bot-CD';
 global.waitt = '⁀⸱⁀⸱︵૰⳹․㊪․⳼૰︵⸱⁀⸱⁀․.\n\n┈┈┈Cargando┈⃐ᤢ࣪┈┈\n\n▰▰▰▰▰ ⁵⁰ %*';
 global.waittt = '⁀⸱⁀⸱︵૰⳹․㊪․⳼૰︵⸱⁀⸱⁀․.\n\n┈┈┈Cargando┈⃐ᤢ࣪┈┈\n\n▰▰▰▰▰▰▰ ⁸⁰  %*';
 global.waitttt = '⁀⸱⁀⸱︵૰⳹․㊪․⳼૰︵⸱⁀⸱⁀․.\n\n┈┈┈Cargando┈⃐ᤢ࣪┈┈\n\n▰▰▰▰▰▰▰▰▰ ¹⁰⁰ %*';
-global.nomorown = '14077384440';
+global.nomorown = '50250101139';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
 global.cmenub = '┊✦ ';
