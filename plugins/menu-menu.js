@@ -21,22 +21,15 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
-
-import { randomBytes } from 'crypto'
-let handler = async (m, { conn, command, participants, usedPrefix, text }) => {
-if (!text && !m.quoted) return m.reply(${wait}(usedprefix, command))        
-let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${conn.user.jid.split('@')[0]}:${conn.user.jid.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" } 
-  
   const { key } = await conn.sendMessage(m.chat, {text: `${wait}`}, {quoted: m})
- 
-
+await conn.sendMessage(m.chat, {text: `⁀⸱⁀⸱︵૰⳹․㊪․⳼૰︵⸱⁀⸱⁀․.\n\n┈┈┈Cargando┈⃐ᤢ࣪┈┈\n\n▰▰▰▰ ³⁰ %*`, edit: key})
   await conn.sendMessage(m.chat, {text: `⁀⸱⁀⸱︵૰⳹․㊪․⳼૰︵⸱⁀⸱⁀․.\n\n┈┈┈Cargando┈⃐ᤢ࣪┈┈\n\n▰▰▰▰▰ ⁵⁰  %*`, edit: key})
 await conn.sendMessage(m.chat, {text: `⁀⸱⁀⸱︵૰⳹․㊪․⳼૰︵⸱⁀⸱⁀․.\n\n┈┈┈Cargando┈⃐ᤢ࣪┈┈\n\n▰▰▰▰▰▰ ⁶⁰  %*`, edit: key})
 await conn.sendMessage(m.chat, {text: `⁀⸱⁀⸱︵૰⳹․㊪․⳼૰︵⸱⁀⸱⁀․.\n\n┈┈┈Cargando┈⃐ᤢ࣪┈┈\n\n▰▰▰▰▰▰▰ ⁷⁰ %*`, edit: key})                                               
 await conn.sendMessage(m.chat, {text: `⁀⸱⁀⸱︵૰⳹․㊪․⳼૰︵⸱⁀⸱⁀․.\n\n┈┈┈Cargando┈⃐ᤢ࣪┈┈\n\n▰▰▰▰▰▰▰▰ ⁸⁰  %*`, edit: key})
 await conn.sendMessage(m.chat, {text: `⁀⸱⁀⸱︵૰⳹․㊪․⳼૰︵⸱⁀⸱⁀․.\n\n┈┈┈Cargando┈⃐ᤢ࣪┈┈\n\n▰▰▰▰▰▰▰▰▰ ⁹⁰ %*`, edit: key})
 await conn.sendMessage(m.chat, {text: `⁀⸱⁀⸱︵૰⳹․㊪․⳼૰︵⸱⁀⸱⁀․.\n\n┈┈┈Cargando┈⃐ᤢ࣪┈┈\n\n▰▰▰▰▰▰▰▰▰ ¹⁰⁰ %*`, edit: key})
-await conn.sendMessage(m.chat, {text: `𝐸𝑁 𝐵𝑅𝐸𝑉𝐸 𝑆𝐸 𝐸𝑁𝑉𝐼𝐴𝑅𝐴 𝐸𝐿 𝑀𝐸𝑁𝑈`, edit: key})
+await conn.sendMessage(m.chat, {text: `┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈\n\n𝐸𝑁 𝐵𝑅𝐸𝑉𝐸 𝑆𝐸 𝐸𝑁𝑉𝐼𝐴𝑅𝐴 𝐸𝐿 𝑀𝐸𝑁𝑈\n\n┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈`, edit: key})
     const str = `╭═══〘 ✯✯✯✯✯✯✯✯✯ 〙══╮
 ║    𖤍 ${packname}${conn.user.jid == global.conn.user.jid ? '' : `\n║˚₊·˚₊· ͟͟͞͞➳* 𝐹𝐸𝑁𝐼𝑋-𝐵𝑂𝑇-𝐶𝐷 𝑆𝑈𝐵 𝐵𝑂𝑇 ⇢ *@${global.conn.user.jid.split`@`[0]}`}
  𖤍
