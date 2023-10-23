@@ -205,117 +205,105 @@ await conn.sendMessage(m.chat, {text: `╭̟̩̩̩̩̩̩̩̩̩̩̩̩̩̩̩̩̩̩
 ┣ ඬ⃟ 🎖️ _${usedPrefix}suitpvp *<@tag>*_
 ┣ ඬ⃟ 🎖️ _${usedPrefix}slot *<apuesta>*_
 ┣ ඬ⃟ 🎖️ _${usedPrefix}ttt *<nombre sala>*_
-┣ ඬ⃟ 🎖️ _delttt_
-┣ ඬ⃟ 🎖️ _.acertijo_
-┣ ඬ⃟ 🎖️ _.simi *<texto>*_
-┣ ඬ⃟ 🎖️ _.top *<texto>*_
-┣ ඬ⃟ 🎖️ _.topgays_
-┣ ඬ⃟ 🎖️ _.topotakus_
-┣ ඬ⃟ 🎖️ _.formarpareja_
-┣ ඬ⃟ 🎖️ _.verdad_
-┣ ඬ⃟ 🎖️ _.reto_
-┣ ඬ⃟ 🎖️ _.cancion_
-┣ ඬ⃟ 🎖️ _.pista_
-┣ ඬ⃟ 🎖️ _.akinator_
-┣ ඬ⃟ 🎖️ _.wordfind_
+┣ ඬ⃟ 🎖️ _${usedPrefix}delttt_
+┣ ඬ⃟ 🎖️ _${usedPrefix}acertijo_
+┣ ඬ⃟ 🎖️ _${usedPrefix}simi *<texto>*_
+┣ ඬ⃟ 🎖️ _${usedPrefix}top *<texto>*_
+┣ ඬ⃟ 🎖️ _${usedPrefix}topgays_
+┣ ඬ⃟ 🎖️ _${usedPrefix}topotakus_
+┣ ඬ⃟ 🎖️ _${usedPrefix}formarpareja_
+┣ ඬ⃟ 🎖️ _${usedPrefix}verdad_
+┣ ඬ⃟ 🎖️ _${usedPrefix}reto_
+┣ ඬ⃟ 🎖️ _${usedPrefix}cancion_
+┣ ඬ⃟ 🎖️ _${usedPrefix}pista_
+┣ ඬ⃟ 🎖️ _${usedPrefix}akinator_
+┣ ඬ⃟ 🎖️ _${usedPrefix}wordfind_
 ╘━ꥇ۬⏝۬︶⊹̇︶ٜ⊹︶ׅ⊹ֺ︶߭⊹︶۬⊹︶ꥇ̇ꥈׄ̇⏝۬ꥇ
 
 ✞͙͙͙͙͙͙͙͙͙͙⏜❟︵ֹ̩̥̩̥̩̥̩̩̥⏜੭🏮୧ֹ⏜︵ֹ̩̥̩̥̩̥̩̥̩̥̩̥̩̥❟⏜፞✞͙͙͙͙͙͙͙͙͙͙.
 ├┈ ↷  Aᴄᴛɪᴠᴀʀ ᴏ
 ├• ✐; ₊˚✦୧︰Dᴇsᴀᴄᴛɪᴠᴀʀ  .
 ├┈・──・──・﹕₊˚ ✦・୨୧・
-┣ ඬ⃟ ☑️ _.enable *welcome*_
-┣ ඬ⃟ ☑️ _.disable *welcome*_
-┣ ඬ⃟ ☑️ _.enable *modohorny*_
-┣ ඬ⃟ ☑️ _.disable *modohorny*_
-┣ ඬ⃟ ☑️ _.enable *antilink*_
-┣ ඬ⃟ ☑️ _.disable *antilink*_
-┣ ඬ⃟ ☑️ _.enable *antilink2*_
-┣ ඬ⃟ ☑️ _.disable *antilink2*_
-┣ ඬ⃟ ☑️ _.enable *detect*_
-┣ ඬ⃟ ☑️ _.disable *detect*_
-┣ ඬ⃟ ☑️ _.enable *audios*_
-┣ ඬ⃟ ☑️ _.disable *audios*_
-┣ ඬ⃟ ☑️ _.enable *autosticker*_
-┣ ඬ⃟ ☑️ _.disable *autosticker*_
-┣ ඬ⃟ ☑️ _.enable *antiviewonce*_
-┣ ඬ⃟ ☑️ _.disable *antiviewonce*_
-┣ ඬ⃟ ☑️ _.enable *antitoxic*_
-┣ ඬ⃟ ☑️ _.disable *antitoxic*_
-┣ ඬ⃟ ☑️ _.enable *antitraba*_
-┣ ඬ⃟ ☑️ _.disable *antitraba*_
-┣ ඬ⃟ ☑️ _.enable *antiarabes*_
-┣ ඬ⃟ ☑️ _.disable *antiarabes*_
-┣ ඬ⃟ ☑️ _.enable *modoadmin*_
-┣ ඬ⃟ ☑️ _.disable *modoadmin*_
-┣ ඬ⃟ ☑️ _.enable *antidelete*_
-┣ ඬ⃟ ☑️ _.disable *antidelete*_
+┣ ඬ⃟ ☑️ _${usedPrefix}enable *welcome*_
+┣ ඬ⃟ ☑️ _${usedPrefix}disable *welcome*_
+┣ ඬ⃟ ☑️ _${usedPrefix}enable *antilink*_
+┣ ඬ⃟ ☑️ _${usedPrefix}disable *antilink*_
+┣ ඬ⃟ ☑️ _${usedPrefix}enable *antilink2*_
+┣ ඬ⃟ ☑️ _${usedPrefix}disable *antilink2*_
+┣ ඬ⃟ ☑️ _${usedPrefix}enable *detect*_
+┣ ඬ⃟ ☑️ _${usedPrefix}disable *detect*_
+┣ ඬ⃟ ☑️ _${usedPrefix}enable *audios*_
+┣ ඬ⃟ ☑️ _${usedPrefix}disable *audios*_
+┣ ඬ⃟ ☑️ _${usedPrefix}enable *autosticker*_
+┣ ඬ⃟ ☑️ _${usedPrefix}disable *autosticker*_
+┣ ඬ⃟ ☑️ _${usedPrefix}enable *antiviewonce*_
+┣ ඬ⃟ ☑️ _${usedPrefix}disable *antiviewonce*_
+┣ ඬ⃟ ☑️ _${usedPrefix}enable *antitoxic*_
+┣ ඬ⃟ ☑️ _${usedPrefix}disable *antitoxic*_
+┣ ඬ⃟ ☑️ _.${usedPrefix}nable *antitraba*_
+┣ ඬ⃟ ☑️ _${usedPrefix}disable *antitraba*_
+┣ ඬ⃟ ☑️ _${usedPrefix}enable *antiarabes*_
+┣ ඬ⃟ ☑️ _${usedPrefix}disable *antiarabes*_
+┣ ඬ⃟ ☑️ _${usedPrefix}enable *modoadmin*_
+┣ ඬ⃟ ☑️ _${usedPrefix}disable *modoadmin*_
+┣ ඬ⃟ ☑️ _${usedPrefix}enable *antidelete*_
+┣ ඬ⃟ ☑️ _${usedPrefix}disable *antidelete*_
 ╘━ꥇ۬⏝۬︶⊹̇︶ٜ⊹︶ׅ⊹ֺ︶߭⊹︶۬⊹︶ꥇ̇ꥈׄ̇⏝۬ꥇ
 
 ✞͙͙͙͙͙͙͙͙͙͙⏜❟︵ֹ̩̥̩̥̩̥̩̩̥⏜੭🏮୧ֹ⏜︵ֹ̩̥̩̥̩̥̩̥̩̥̩̥̩̥❟⏜፞✞͙͙͙͙͙͙͙͙͙͙.
 ├┈ ↷  Rᴇᴘᴏʀᴛᴀʀ
 ├• ✐; ₊˚✦୧︰ Eʀʀᴏʀᴇs .
 ├┈・──・──・﹕₊˚ ✦・୨୧・
-┣ ඬ⃟ 🔰 _.reporte *<texto>*_
+┣ ඬ⃟ 🔰 ${usedPrefix}reporte *<texto>*_
 ╘━ꥇ۬⏝۬︶⊹̇︶ٜ⊹︶ׅ⊹ֺ︶߭⊹︶۬⊹︶ꥇ̇ꥈׄ̇⏝۬ꥇ
 
 ✞͙͙͙͙͙͙͙͙͙͙⏜❟︵ֹ̩̥̩̥̩̥̩̩̥⏜੭🏮୧ֹ⏜︵ֹ̩̥̩̥̩̥̩̥̩̥̩̥̩̥❟⏜፞✞͙͙͙͙͙͙͙͙͙͙.
 ├┈ ↷  
 ├• ✐; ₊˚✦୧︰Dᴇsᴄᴀʀɢᴀs .
 ├┈・──・──・﹕₊˚ ✦・୨୧・
-┣ ඬ⃟ 📥 _.instagram *<enlace / link / url>*_
-┣ ඬ⃟ 📥 _.mediafire *<enlace / link / url>*_
-┣ ඬ⃟ 📥 _.gitclone *<enlace / link / url>*_
-┣ ඬ⃟ 📥 _.gdrive *<enlace / link / url>*_
-┣ ඬ⃟ 📥 _.tiktok *<enlace / link / url>*_
-┣ ඬ⃟ 📥 _.tiktokimg *<enlace / link / url>*_
-┣ ඬ⃟ 📥 _.xnxxdl *<enlace / link / url>*_
-┣ ඬ⃟ 📥 _.xvideosdl *<enlace / link / url>*_
-┣ ඬ⃟ 📥 _.twitter *<enlace / link / url>*_
-┣ ඬ⃟ 📥 _.fb *<enlace / link / url>*_
-┣ ඬ⃟ 📥 _.ytshort *<enlace / link / url>*_
-┣ ඬ⃟ 📥 _.ytmp3 *<enlace / link / url>*_
-┣ ඬ⃟ 📥 _.ytmp4 *<enlace / link / url>*_
-┣ ඬ⃟ 📥 _.ytmp3doc *<enlace / link / url>*_
-┣ ඬ⃟ 📥 _.ytmp4doc *<enlace / link / url>*_
-┣ ඬ⃟ 📥 _.videodoc *<enlace / link / url>*_
-┣ ඬ⃟ 📥 _.dapk2 *<enlace / link / url>*_
-┣ ඬ⃟ 📥 _.stickerpack *<enlace / link / url>*_
-┣ ඬ⃟ 📥 _.play *<texto>*_
-┣ ඬ⃟ 📥 _.play2 *<texto>*_
-┣ ඬ⃟ 📥 _.play.1 *<texto>*_
-┣ ඬ⃟ 📥 _.play.2 *<texto>*_
-┣ ඬ⃟ 📥 _.playdoc *<texto>*_
-┣ ඬ⃟ 📥 _.playdoc2 *<texto>*_
-┣ ඬ⃟ 📥 _.playlist *<texto>*_
-┣ ඬ⃟ 📥 _.spotify *<texto>*_
-┣ ඬ⃟ 📥 _.ringtone *<texto>*_
-┣ ඬ⃟ 📥 _.soundcloud *<texto>*_
-┣ ඬ⃟ 📥 _.imagen *<texto>*_
-┣ ඬ⃟ 📥 _.pinterest *<texto>*_
-┣ ඬ⃟ 📥 _.wallpaper *<texto>*_
-┣ ඬ⃟ 📥 _.pptiktok *<nombre de usuario>*_
-┣ ඬ⃟ 📥 _.igstalk *<nombre de usuario>*_
-┣ ඬ⃟ 📥 _.igstory *<nombre de usuario>*_
-┣ ඬ⃟ 📥 _.tiktokstalk *<username>*_
+┣ ඬ⃟ 📥 _${usedPrefix}instagram *<enlace / link / url>*_
+┣ ඬ⃟ 📥 _${usedPrefix}mediafire *<enlace / link / url>*_
+┣ ඬ⃟ 📥 _${usedPrefix}gitclone *<enlace / link / url>*_
+┣ ඬ⃟ 📥 _${usedPrefix}gdrive *<enlace / link / url>*_
+┣ ඬ⃟ 📥 _${usedPrefix}tiktok *<enlace / link / url>*_
+┣ ඬ⃟ 📥 _${usedPrefix}tiktokimg *<enlace / link / url>*_
+┣ ඬ⃟ 📥 _${usedPrefix}twitter *<enlace / link / url>*_
+┣ ඬ⃟ 📥 _${usedPrefix}fb *<enlace / link / url>*_
+┣ ඬ⃟ 📥 _${usedPrefix}ytshort *<enlace / link / url>*_
+┣ ඬ⃟ 📥 _${usedPrefix}ytmp3 *<enlace / link / url>*_
+┣ ඬ⃟ 📥 _${usedPrefix}ytmp4 *<enlace / link / url>*_
+┣ ඬ⃟ 📥 _${usedPrefix}ytmp3doc *<enlace / link / url>*_
+┣ ඬ⃟ 📥 _${usedPrefix}ytmp4doc *<enlace / link / url>*_
+┣ ඬ⃟ 📥 _${usedPrefix}videodoc *<enlace / link / url>*_
+┣ ඬ⃟ 📥 _${usedPrefix}dapk2 *<enlace / link / url>*_
+┣ ඬ⃟ 📥 _${usedPrefix}stickerpack *<enlace / link / url>*_
+┣ ඬ⃟ 📥 _${usedPrefix}play *<texto>*_
+┣ ඬ⃟ 📥 _${usedPrefix}play2 *<texto>*_
+┣ ඬ⃟ 📥 _${usedPrefix}playdoc *<texto>*_
+┣ ඬ⃟ 📥 _${usedPrefix}playdoc2 *<texto>*_
+┣ ඬ⃟ 📥 _${usedPrefix}playlist *<texto>*_
+┣ ඬ⃟ 📥 _${usedPrefix}spotify *<texto>*_
+┣ ඬ⃟ 📥 _${usedPrefix}pinterest *<texto>*_
+┣ ඬ⃟ 📥 _${usedPrefix}wallpaper *<texto>*_
+┣ ඬ⃟ 📥 _${usedPrefix}pptiktok *<nombre de usuario>*_
+┣ ඬ⃟ 📥 _${usedPrefix}tiktokstalk *<username>*_
 ╘━ꥇ۬⏝۬︶⊹̇︶ٜ⊹︶ׅ⊹ֺ︶߭⊹︶۬⊹︶ꥇ̇ꥈׄ̇⏝۬ꥇ
 
 ✞͙͙͙͙͙͙͙͙͙͙⏜❟︵ֹ̩̥̩̥̩̥̩̩̥⏜੭🏮୧ֹ⏜︵ֹ̩̥̩̥̩̥̩̥̩̥̩̥̩̥❟⏜፞✞͙͙͙͙͙͙͙͙͙͙.
 ├┈ ↷  Bᴜsᴄᴀᴅᴏʀᴇs
 ├• ✐; ₊˚✦୧︰  .
 ├┈・──・──・﹕₊˚ ✦・୨୧・
-┣ ඬ⃟ 🔍 _.githubsearch *<texto>*_
-┣ ඬ⃟ 🔍 _.pelisplus *<texto>*_
-┣ ඬ⃟ 🔍 _.modapk *<texto>*_
-┣ ඬ⃟ 🔍 _.stickersearch *<texto>*_
-┣ ඬ⃟ 🔍 _.stickersearch2 *<texto>*_
-┣ ඬ⃟ 🔍 _.xnxxsearch *<texto>*_
-┣ ඬ⃟ 🔍 _.animeinfo *<texto>*_
-┣ ඬ⃟ 🔍 _.google *<texto>*_
-┣ ඬ⃟ 🔍 _.letra *<texto>*_
-┣ ඬ⃟ 🔍 _.wikipedia *<texto>*_
-┣ ඬ⃟ 🔍 _.ytsearch *<texto>*_
-┣ ඬ⃟ 🔍 _.playstore *<texto>*_
+┣ ඬ⃟ 🔍 _${usedPrefix}githubsearch *<texto>*_
+┣ ඬ⃟ 🔍 _${usedPrefix}pelisplus *<texto>*_
+┣ ඬ⃟ 🔍 _${usedPrefix}modapk *<texto>*_
+┣ ඬ⃟ 🔍 _${usedPrefix}stickersearch *<texto>*_
+┣ ඬ⃟ 🔍 _${usedPrefix}stickersearch2 *<texto>*_
+┣ ඬ⃟ 🔍 _${usedPrefix}animeinfo *<texto>*_
+┣ ඬ⃟ 🔍 _${usedPrefix}google *<texto>*_
+┣ ඬ⃟ 🔍 _${usedPrefix}letra *<texto>*_
+┣ ඬ⃟ 🔍 _${usedPrefix}wikipedia *<texto>*_
+┣ ඬ⃟ 🔍 _${usedPrefix}ytsearch *<texto>*_
+┣ ඬ⃟ 🔍 _${usedPrefix}playstore *<texto>*_
 ╘━ꥇ۬⏝۬︶⊹̇︶ٜ⊹︶ׅ⊹ֺ︶߭⊹︶۬⊹︶ꥇ̇ꥈׄ̇⏝۬ꥇ
 
 ✞͙͙͙͙͙͙͙͙͙͙⏜❟︵ֹ̩̥̩̥̩̥̩̩̥⏜੭🏮୧ֹ⏜︵ֹ̩̥̩̥̩̥̩̥̩̥̩̥̩̥❟⏜፞✞͙͙͙͙͙͙͙͙͙͙.
