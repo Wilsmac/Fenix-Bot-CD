@@ -1,13 +1,13 @@
 import fetch from 'node-fetch';
 const regex = /(?:https|git)(?::\/\/|@)github\.com[\/:]([^\/:]+)\/(.+)/i;
 const handler = async (m, {args, usedPrefix, command}) => {
-  if (!args[0]) throw `*[❗𝐈𝐍𝐅𝐎❗] 𝙸𝙽𝙶𝚁𝙴𝚂𝙴 𝚄𝙽 𝙴𝙽𝙻𝙰𝙲𝙴 𝙳𝙴 𝙶𝙸𝚃𝙷𝚄𝙱, 𝙴𝙹𝙴𝙼𝙿𝙻𝙾: ${usedPrefix + command} https://github.com/BrunoSobrino/TheMystic-Bot-MD*`;
-  if (!regex.test(args[0])) throw '*[❗𝐈𝐍𝐅𝐎❗] 𝙻𝙸𝙽𝙺 𝙸𝙽𝙲𝙾𝚁𝚁𝙴𝙲𝚃𝙾!*';
+  if (!args[0]) throw `*[INFORMACIÓN] 𝐼𝑁𝐺𝑅𝐸𝑆𝐸 𝑈𝑁 𝐸𝑁𝐿𝐴𝐶𝐸 𝐷𝐸 𝐺𝐼𝑇𝐻𝑈𝐵, 𝐸𝐽𝐸𝑀𝑃𝐿𝑂: ${usedPrefix + command} https://github.com/Wilsmac/Fenix-Bot-CD*`;
+  if (!regex.test(args[0])) throw '*[INFORMACIÓN] 𝐿𝐼𝑁𝐾 𝐼𝑁𝐶𝑂𝑅𝑅𝐸𝐶𝑇𝑂*';
   let [_, user, repo] = args[0].match(regex) || [];
   repo = repo.replace(/.git$/, '');
   const url = `https://api.github.com/repos/${user}/${repo}/zipball`;
   const filename = (await fetch(url, {method: 'HEAD'})).headers.get('content-disposition').match(/attachment; filename=(.*)/)[1];
-  m.reply(`*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚂𝙿𝙴𝚁𝙴 𝚄𝙽 𝙼𝙾𝙼𝙴𝙽𝚃𝙾 𝙴𝙽 𝙻𝙾 𝚀𝚄𝙴 𝙴𝙽𝚅𝙸𝙾 𝚂𝚄 𝙰𝚁𝙲𝙷𝙸𝚅𝙾, 𝚂𝙸 𝙴𝚂𝚃𝙴 𝙽𝙾 𝙴𝚂 𝙴𝙽𝚅𝙸𝙰𝙳𝙾 𝙿𝚄𝙴𝙳𝙴 𝙳𝙴𝙱𝙴𝚁𝚂𝙴 𝙰 𝚀𝚄𝙴 𝙴𝙻 𝚁𝙴𝙿𝙾𝚂𝙸𝚃𝙾𝚁𝙸𝙾 𝙴𝚂 𝙼𝚄𝚈 𝙿𝙴𝚂𝙰𝙳𝙾*`);
+  m.reply(`*[INFORMACIÓN] 𝐸𝑆𝑃𝐸𝑅𝐸 𝑈𝑁 𝑀𝑂𝑀𝐸𝑁𝑇𝑂 𝐸𝑁 𝐿𝑂 𝑄𝑈𝐸 𝐸𝑁𝑉𝐼𝑂 𝑆𝑈 𝐴𝑅𝐶𝐻𝐼𝑉𝑂, 𝑆𝐼 𝐸𝑆𝑇𝐸 𝑁𝑂 𝐸𝑆 𝐸𝑁𝑉𝐼𝐴𝐷𝑂 𝑃𝑈𝐸𝐷𝐸 𝐷𝐸𝐵𝐸𝑅𝑆𝐸 𝐴 𝑄𝑈𝐸 𝐸𝐿 𝑅𝐸𝑃𝑂𝑆𝐼𝑇𝑂𝑅𝐼𝑂 𝐸𝑆 𝑀𝑈𝑌 𝑃𝐸𝑆𝐴𝐷𝑂♡*`);
   conn.sendFile(m.chat, url, filename, null, m);
 };
 handler.help = ['gitclone <url>'];
