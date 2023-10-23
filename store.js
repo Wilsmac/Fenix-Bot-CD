@@ -16,3 +16,9 @@ global.wait = '*■□□□□ 20%*'
 global.waitt = '*■■■□□ 60%*'
 global.waittt = '*■■■■□ 90%*'
 global.waitttt = '*■■■■■ 100%*'
+
+let file = fileURLToPath(import.meta.url)
+watchFile(file, () => { unwatchFile(file)
+console.log(chalk.yellowBright('Se actualizo el archivo store.js'))
+import(`${file}?update=${Date.now()}`)
+})
