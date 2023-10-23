@@ -23,8 +23,10 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const document = doc[Math.floor(Math.random() * doc.length)];
    const { key } = await conn.sendMessage(m.chat, {text: `${wait}`}, {quoted: m})
 await conn.sendMessage(m.chat, {text: `⁀⸱⁀⸱︵૰⳹․㊪․⳼૰︵⸱⁀⸱⁀․.\n\n┈┈┈Cargando┈⃐ᤢ࣪┈┈\n\n▰▰▰▰ ³⁰ %*`, edit: key})
-await conn.sendMessage(m.chat, {text: `⁀⸱⁀⸱︵૰⳹․㊪․⳼૰︵⸱⁀⸱⁀․.\n\n┈┈┈Cargando┈⃐ᤢ࣪┈┈\n\n▰▰▰▰▰ ⁵⁰  %*`, edit: key})
-await conn.sendMessage(m.chat, {text: `⁀⸱⁀⸱︵૰⳹․㊪․⳼૰︵⸱⁀⸱⁀․.\n\n┈┈┈Cargando┈⃐ᤢ࣪┈┈\n\n▰▰▰▰▰▰ ⁶⁰  %*`, edit: key})
+await delay(100 * 1)
+    await conn.sendMessage(m.chat, {text: `⁀⸱⁀⸱︵૰⳹․㊪․⳼૰︵⸱⁀⸱⁀․.\n\n┈┈┈Cargando┈⃐ᤢ࣪┈┈\n\n▰▰▰▰▰ ⁵⁰  %*`, edit: key})
+await delay(100 * 1)
+    await conn.sendMessage(m.chat, {text: `⁀⸱⁀⸱︵૰⳹․㊪․⳼૰︵⸱⁀⸱⁀․.\n\n┈┈┈Cargando┈⃐ᤢ࣪┈┈\n\n▰▰▰▰▰▰ ⁶⁰  %*`, edit: key})
 await conn.sendMessage(m.chat, {text: `⁀⸱⁀⸱︵૰⳹․㊪․⳼૰︵⸱⁀⸱⁀․.\n\n┈┈┈Cargando┈⃐ᤢ࣪┈┈\n\n▰▰▰▰▰▰▰ ⁷⁰ %*`, edit: key})                                               
 await conn.sendMessage(m.chat, {text: `⁀⸱⁀⸱︵૰⳹․㊪․⳼૰︵⸱⁀⸱⁀․.\n\n┈┈┈Cargando┈⃐ᤢ࣪┈┈\n\n▰▰▰▰▰▰▰▰ ⁸⁰  %*`, edit: key})
 await conn.sendMessage(m.chat, {text: `⁀⸱⁀⸱︵૰⳹․㊪․⳼૰︵⸱⁀⸱⁀․.\n\n┈┈┈Cargando┈⃐ᤢ࣪┈┈\n\n▰▰▰▰▰▰▰▰▰ ⁹⁰ %*`, edit: key})
