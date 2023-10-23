@@ -22,7 +22,6 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
    const { key } = await conn.sendMessage(m.chat, {text: `${wait}`}, {quoted: m})
-const {key} = await delay(1000 * 1)
 const {key} = await conn.sendMessage(m.chat, {text: `${waitt}`, edit: key})
 const {key} = await delay(1000 * 1);
 const {key} = await conn.sendMessage(m.chat, {text: `${waittt}`, edit: key})
