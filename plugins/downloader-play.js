@@ -39,7 +39,7 @@ const handler = async (m, {conn, command, args, text, usedPrefix}) => {
  ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
  𖤍 *𝐿𝑖𝑛𝑘:* ${yt_play[0].url}\n
  ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
- 𖤍 *_𝐸𝑛𝑣𝑖𝑎𝑛𝑑𝑜 ${additionalText}, aguarde un momento．．．_*`.trim();
+ 𖤍 *_Enviando ${additionalText}, esperé un momento por favor．．．_*`.trim();
     conn.sendMessage(m.chat, {image: {url: yt_play[0].thumbnail}, caption: texto1}, {quoted: m});
     if (command == 'play') {
     try {    
