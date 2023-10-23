@@ -11,7 +11,7 @@ import { platform } from 'process'
 global.__filename = function filename(pathURL = import.meta.url, rmPrefix = platform !== 'win32') { return rmPrefix ? /file:\/\/\//.test(pathURL) ? fileURLToPath(pathURL) : pathURL : pathToFileURL(pathURL).toString() }; global.__dirname = function dirname(pathURL) { return path.dirname(global.__filename(pathURL, true)) }; global.__require = function require(dir = import.meta.url) { return createRequire(dir) }
 const __dirname = global.__dirname(import.meta.url)
 
-global.ig = "https://instagram.com/cmwilmer4'
+global.ig = 'https://instagram.com/cmwilmer4'
 global.wait = '*■□□□□ 20%*'
 global.waitt = '*■■■□□ 60%*'
 global.waittt = '*■■■■□ 90%*'
