@@ -12,7 +12,7 @@ const handler = async (m, {conn, args, usedPrefix, command}) => {
     const mime = (q.msg || q).mimetype || q.mediaType || '';
     if (/webp|image|video/g.test(mime)) {
       const img = await q.download?.();
-      if (!img) throw `*[❗𝐈𝐍𝐅𝐎❗] 𝚁𝙴𝚂𝙿𝙾𝙽𝙳𝙴 𝙰 𝚄𝙽 𝚅𝙸𝙳𝙴𝙾, 𝙸𝙼𝙰𝙶𝙴𝙽 𝙾 𝙸𝙽𝚂𝙴𝚁𝚃𝙴 𝙴𝙻 𝙴𝙽𝙻𝙰𝙲𝙴 𝙳𝙴 𝚄𝙽𝙰 𝙸𝙼𝙰𝙶𝙴𝙽 𝚃𝙴𝚁𝙼𝙸𝙽𝙰𝙲𝙸𝙾́𝙽 .𝚓𝚙𝚐 𝙴𝙻 𝙲𝚄𝙰𝙻 𝚂𝙴𝚁𝙰 𝙲𝙾𝙽𝚅𝙴𝚁𝚃𝙸𝙳𝙾 𝙴𝙽 𝚂𝚃𝙸𝙲𝙺𝙴𝚁, 𝙳𝙴𝙱𝙴 𝚁𝙴𝚂𝙿𝙾𝙽𝙳𝙴𝚁 𝙾 𝚄𝚂𝙰𝚁 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 ${usedPrefix + command}*`;
+      if (!img) throw `*『INFORMACÍON』 𝑅𝐸𝑆𝑃𝑂𝑁𝐷𝐸 𝐴 𝑈𝑁 𝑉𝐼𝐷𝐸𝑂 𝑂𝐻 𝐼𝑀𝐴𝐺𝐸𝑁 𝑄𝑈𝐸 𝑄𝑈𝐼𝐸𝑅𝐴𝑆 𝐶𝑂𝑁𝐵𝐸𝑅𝑇𝐼𝐿𝑂 𝐸𝑁 𝑆𝑇𝐼𝐶𝐾𝐸𝑅, 𝑂 𝑄𝑈𝐸 𝑇𝐸𝑅𝑀𝐼𝑁𝐸 𝐸𝑁 .jpg o .png 𖤍 ${usedPrefix + command}*`;
       let out;
       try {
         stiker = await sticker(img, false, global.packname, global.author);
@@ -36,7 +36,7 @@ const handler = async (m, {conn, args, usedPrefix, command}) => {
     if (!stiker) stiker = e;
   } finally {
     if (stiker) conn.sendFile(m.chat, stiker, 'sticker.webp', '', m);
-    else throw '*[❗𝐈𝐍𝐅𝐎❗] 𝙾𝙲𝚄𝚁𝚁𝙸𝙾 𝚄𝙽 𝙴𝚁𝚁𝙾𝚁, 𝚅𝚄𝙴𝙻𝚅𝙰 𝙰 𝙸𝙽𝚃𝙴𝙽𝚃𝙰𝚁𝙻𝙾. 𝚁𝙴𝚂𝙿𝙾𝙽𝙳𝙴 𝙰 𝚄𝙽 𝚅𝙸𝙳𝙴𝙾, 𝙸𝙼𝙰𝙶𝙴𝙽 𝙾 𝙸𝙽𝚂𝙴𝚁𝚃𝙴 𝙴𝙻 𝙴𝙽𝙻𝙰𝙲𝙴 𝙳𝙴 𝚄𝙽𝙰 𝙸𝙼𝙰𝙶𝙴𝙽 𝚃𝙴𝚁𝙼𝙸𝙽𝙰𝙲𝙸𝙾́𝙽 .𝚓𝚙𝚐 𝙴𝙻 𝙲𝚄𝙰𝙻 𝚂𝙴𝚁𝙰 𝙲𝙾𝙽𝚅𝙴𝚁𝚃𝙸𝙳𝙾 𝙴𝙽 𝚂𝚃𝙸𝙲𝙺𝙴𝚁*';
+    else throw '*『INFORMACÍON』 𝑅𝐸𝑆𝑃𝑂𝑁𝐷𝐸 𝐴 𝑈𝑁 𝑉𝐼𝐷𝐸𝑂 𝑂𝐻 𝐼𝑀𝐴𝐺𝐸𝑁 𝑄𝑈𝐸 𝑄𝑈𝐼𝐸𝑅𝐴𝑆 𝐶𝑂𝑁𝐵𝐸𝑅𝑇𝐼𝐿𝑂 𝐸𝑁 𝑆𝑇𝐼𝐶𝐾𝐸𝑅, 𝑂 𝑄𝑈𝐸 𝑇𝐸𝑅𝑀𝐼𝑁𝐸 𝐸𝑁 .jpg o .png 𖤍*';
   }
 };
 handler.help = ['sfull'];
