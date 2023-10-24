@@ -73,7 +73,7 @@ await conn.sendMessage(m.chat, {text: `╭̟̩̩̩̩̩̩̩̩̩̩̩̩̩̩̩̩̩̩
 ╭ - ̗̀↳ꕤ—— 𖤍 —— ꕤ╮
 ┃ *< *pareja />*
 ├┈・─・﹕₊˚ ✦・୨୧・
-┣ ${pareja ? `\n*»* ${name} 💕 ${conn.getName(pareja)}` : `🛐 No tiene Pareja`}
+┣ 'pareja' ${pareja ? `\n*»* ${name} 💕 ${conn.getName(pareja)}` : `🛐 No tiene Pareja`}
 ╰ - ̗̀↳ꕤ—— 𖤍 —— ꕤ╯
 
 ╭┈ ↷ 𝐇𝐎𝐑𝐀𝐑𝐈𝐎 
