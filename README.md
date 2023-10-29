@@ -9,12 +9,6 @@
 </p>
  
 
-------------------
-> **AVISO**: Yo "Wilsmac", me he retirado de todo lo relacionado con el Bot o temas similares, por lo que en algun momento quedará obsoleto y/o algunos comandos dejarán de funcionar. Agradezco su preferencia durante el recorrido por este mundo de los Bots.
-
-> Fenix-Bot-CD pasa a quedar en manos de colaboradores, y como principal representante UNIFINED
-------------------
-
 
 <p align="center"> 
 <a href="https://github.com/Wilsmac"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=20&duration=4000&color=[00FFFF]&center=falso&vCenter=falso&lines=Fenix-Bot-CD++;Grupos+Oficiales+de" height="100px"></a> 
