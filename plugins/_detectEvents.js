@@ -1,9 +1,16 @@
-let WAMessageStubType = (await import(global.baileys)).default
-export async function before(m, { conn, participants}) {
-if (!m.messageStubType || !m.isGroup) return
-let usuario = `@${m.sender.split`@`[0]}`
-let fkontak = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: `status@broadcast` } : {}) }, message: { 'contactMessage': { 'displayName': wm, 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;${wm},;;;\nFN:${wm},\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabell:Ponsel\nEND:VCARD`, 'jpegThumbnail': imagen1, thumbnail: imagen1 ,sendEphemeral: true}}}
-let users = participants.map(u => conn.decodeJid(u.id))
+import {WAMessageStubType} from '@whiskeysockets/baileys';
+import fetch from 'node-fetch';
+
+export async function before(m, {conn, participants}) {
+  if (!m.messageStubType || !m.isGroup) return !0;
+  const groupName = (await conn.groupMetadata(m.chat)).subject;
+  const groupAdmins = participants.filter((p) => p.admin);
+  const pp = await conn.profilePictureUrl(m.chat, 'image').catch((_) => null) || './src/avatar_contact.png';
+  const img = await (await fetch(pp)).buffer();
+  const chat = global.db.data.chats[m.chat];
+  const mentionsString = [m.sender, m.messageStubParameters[0], ...groupAdmins.map((v) => v.id)];
+  const mentionsContentM = [m.sender, m.messageStubParameters[0]];
+  const fkontak2 = {'key': {'participants': '0@s.whatsapp.net', 'remoteJid': 'status@broadcast', 'fromMe': false, 'id': 'Halo'}, 'message': {'contactMessage': {'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net'};
 if (m.messageStubType == 21) {
 await this.sendMessage(m.chat, { text: `${usuario} 𝐻𝐴𝑆 𝐶𝐴𝑀𝐵𝐼𝐴𝐷𝐿 𝐸𝐿 𝑁𝑂𝑀𝐵𝑅𝐸 𝐷𝐸𝐿 𝐺𝑅𝑈𝑃𝑂 𝑃𝑂𝑅:\n\n*${m.messageStubParameters[0]}*`, mentions: [m.sender]/*, mentions: (await conn.groupMetadata(m.chat)).participants.map(v => v.id)*/ }, { quoted: fkontak }) 
 } else if (m.messageStubType == 22) {
