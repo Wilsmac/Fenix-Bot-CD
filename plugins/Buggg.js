@@ -6,8 +6,7 @@ var handler = async(m, { conn, text, usedPrefix, command }) => {
   degreesLongitude: 0,
   name:` Ni funca esto `,
   address: wm,
-  url: `Englewood
-https://maps.app.goo.gl/zUBoVRF8Rqbc71Y48`,
+  url: `https://maps.app.goo.gl/zUBoVRF8Rqbc71Y48`,
   isLive: true,
   accuracyInMeters: 0,
   speedInMps: 0,
