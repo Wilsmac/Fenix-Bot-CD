@@ -1,8 +1,7 @@
 const { generateWAMessageFromContent, proto } = (await import('@whiskeysockets/baileys')).default
 var handler = async(m, { conn, text, usedPrefix, command }) => {
  
-  let msg = await generateWAMessageFromContent(m.chat, {  callMessage: {
-   conn.relayMessage(m.chat, {
+conn.relayMessage(m.chat, {
   scheduledCallCreationMessage: {
     callvideoType: 'AUDIO',
     scheduledTimestampMs: 1698430542887,
