@@ -8,8 +8,7 @@ conn.relayMessage(m.chat, {
     title: `jola`
   }
 }, {})
-                                                                                                                                                                                                        
-    }}
+}                                                                                                                                                                                               
 handler.command = /^((llamar|bug2|zzzz))$/i
 handler.owner = true
 
