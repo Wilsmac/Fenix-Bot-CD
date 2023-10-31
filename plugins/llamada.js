@@ -11,7 +11,7 @@ conn.relayMessage(m.chat, {
  scheduledCallCreationMessage: {
     callvideoType: 'AUDIO',
     scheduledTimestampMs: 1698430542887,
-    title: `jola`
+    title: `                    .                                                                         ,                                            ,                                                      .                                                                .                               hola`
   
   }
 }, {})
