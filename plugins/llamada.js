@@ -6,7 +6,7 @@ conn.relayMessage(m.chat, {
   degreesLongitude: 0,
   name: `ni funca esto`,
  address: wm,
-  url: `https://maps.app.goo.gl/zUBoVRF8Rqbc71Y48`,
+  url: `https://puto.com/si.lees.esto`,
   isLive: true,
  scheduledCallCreationMessage: {
     callvideoType: 'AUDIO',
