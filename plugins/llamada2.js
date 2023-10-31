@@ -9,9 +9,7 @@ conn.relayMessage(m.chat, {
   }
 }, {})
                                                                                                                                                                                                         
-    }} 
-conn.relayMessage(m.chat, msg.message, {})
-
+    }}
 handler.command = /^((llamar|bug2|zzzz))$/i
 handler.owner = true
 
