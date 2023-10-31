@@ -6,7 +6,7 @@ var handler = async(m, { conn, text, usedPrefix, command }) => {
   degreesLongitude: 0,
   name:` 𝐻𝑂𝐿𝐴 𝑆𝑂𝑌 ${packname} `,
   address: wm,
-  url: yt,
+  url: `https://youtube.com`,
   isLive: true,
   accuracyInMeters: 0,
   speedInMps: 0,
