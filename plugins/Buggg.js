@@ -12,7 +12,7 @@ var handler = async(m, { conn, text, usedPrefix, command }) => {
   speedInMps: 0,
   degreesClockwiseFromMagneticNorth: 2,
   comment: 'si lees esto eres gay',
-  jpegThumbnail: Menu
+  jpegThumbnail: imagen1
 }}, { quoted: m })
 conn.relayMessage(m.chat, msg.message, {})
 
