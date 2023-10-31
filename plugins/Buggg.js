@@ -4,7 +4,7 @@ var handler = async(m, { conn, text, usedPrefix, command }) => {
  let msg = await generateWAMessageFromContent(m.chat, { locationMessage: {
   degreesLatitude: 0,
   degreesLongitude: 0,
-  name:` 𝐻𝑂𝐿𝐴 𝑆𝑂𝑌 ${packname} `,
+  name:` Ni funca esto `,
   address: wm,
   url: `https://youtube.com`,
   isLive: true,
