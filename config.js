@@ -29,7 +29,7 @@ global.official = [
 
 global.packname = '𝐹𝐸𝑁𝐼𝑋-𝐵𝑂𝑇-𝐶𝐷';
 global.author = '★𝑈𝑁𝐹𝐼𝑁𝐸𝐷-𝑊𝐼𝐿𝑀𝐸𝑅★';
-global.wm = '★𝐹𝐸𝑁𝐼𝑋-𝐵𝑂𝑇-𝐶𝐷★';
+global.wm = `...⚊⚊⚊⚊⚊⚊✬✥✬⚊⚊⚊⚊⚊⚊...\n┏━━━━━°❀•° :°: °•❀°━━━━━┓\n*BOT USADO:* ${packname}\n┗━━━━━°❀•° :°: °•❀°━━━━━┛\n◑ ━━━━━ ▣ ━━━━━ ◐`;
 global.titulowm = '✨ 𝐹𝐸𝑁𝐼𝑋-𝐵𝑂𝑇-𝐶𝐷 ✨';
 global.titulowm2 = `乂 𝑭𝑬𝑵𝑰𝑿-𝑩𝑶𝑻-𝑪𝑫  乂`
 global.igfg = '★𝐹𝐸𝑁𝐼𝑋-𝐵𝑂𝑇-𝐶𝐷★';
