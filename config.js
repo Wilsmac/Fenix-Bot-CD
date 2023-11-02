@@ -27,9 +27,10 @@ global.official = [
 ["14077384440", '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿𝗮 𝗢𝗳𝗶𝗰𝗶𝗮𝗹', 1], 
 ["50253077417", 'Colaboradora oficial', 1]]
 
-global.pegatina = `┏━━━━━°❀•° :°: °•❀°━━━━━┓\n𝐁𝐎𝐓 𝐔𝐒𝐀𝐃𝐎: 𖤍${packname}𖤍\n╔════ °❀•°✮°•❀° ══════╗\n 𝑃𝑅𝑂𝑃𝐼𝐸𝑇𝐴𝑅𝐼𝑂(𝐀) ${author}\n╚════ °❀•°✮°•❀° ══════╝`;
+global.creator = `𝐖𝐈𝐋𝐒𝐌𝐀𝐂 『𝔬𝔣𝔠』`
+global.pegatina = `┏━━━━━°❀•° :°: °•❀°━━━━━┓\n𝐁𝐎𝐓 𝐔𝐒𝐀𝐃𝐎: 𖤍${packname}𖤍\n╔════ °❀•°✮°•❀° ═════╗\n 𝑃𝑅𝑂𝑃𝐼𝐸𝑇𝐴𝑅𝐼𝑂(𝐀) ${creator}\n╚════ °❀•°✮°•❀° ═════╝`;
 global.packname = '𝐹𝐸𝑁𝐼𝑋-𝐵𝑂𝑇-𝐶𝐷';
-global.author = '★𝑈𝑁𝐹𝐼𝑁𝐸𝐷-𝑊𝐼𝐿𝑀𝐸𝑅★';
+global.author = '𝑾𝑰𝑳𝑺𝑴𝑨𝑪';
 global.wm = '𝑭𝑬𝑵𝑰𝑿-𝑩𝑶𝑻-𝑪𝑫';
 global.titulowm = '✨ 𝐹𝐸𝑁𝐼𝑋-𝐵𝑂𝑇-𝐶𝐷 ✨';
 global.titulowm2 = `乂 𝑭𝑬𝑵𝑰𝑿-𝑩𝑶𝑻-𝑪𝑫  乂`
