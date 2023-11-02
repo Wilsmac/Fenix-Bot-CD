@@ -15,7 +15,7 @@ const handler = async (m, {conn, args, usedPrefix, command}) => {
       if (!img) throw `*『INFORMACÍON』 𝑅𝐸𝑆𝑃𝑂𝑁𝐷𝐸 𝐴 𝑈𝑁 𝑉𝐼𝐷𝐸𝑂 𝑂𝐻 𝐼𝑀𝐴𝐺𝐸𝑁 𝑄𝑈𝐸 𝑄𝑈𝐼𝐸𝑅𝐴𝑆 𝐶𝑂𝑁𝐵𝐸𝑅𝑇𝐼𝐿𝑂 𝐸𝑁 𝑆𝑇𝐼𝐶𝐾𝐸𝑅, 𝑂 𝑄𝑈𝐸 𝑇𝐸𝑅𝑀𝐼𝑁𝐸 𝐸𝑁 .jpg o .png 𖤍 ${usedPrefix + command}*`;
       let out;
       try {
-        stiker = await sticker(img, false, global.packname, global.author);
+        stiker = await sticker(img, false, global.pegatina, global.author);
       } catch (e) {
         console.error(e);
       } finally {
