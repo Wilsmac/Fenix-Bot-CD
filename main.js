@@ -1,4 +1,4 @@
-yoprocess.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '1';
+process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '1';
 import './config.js';
 import './api.js';
 import {createRequire} from 'module';
@@ -189,6 +189,47 @@ defaultQueryTimeoutMs: undefined,
 version
 }
 
+global.conn = makeWASocket(connectionOptions)
+if (!fs.existsSync(`./${authFile}/creds.json`)) {
+if (opcion === '2' || methodCode) {
+//if (fs.existsSync(`./${authFile}/creds.json`)) {
+//console.log(chalk.bold.redBright(`PRIMERO BORRE EL ARCHIVO ${chalk.bold.greenBright("creds.json")} QUE SE ENCUENTRA EN LA CARPETA ${chalk.bold.greenBright(authFile)} Y REINICIE.`))
+//process.exit()
+//}
+opcion = '2'
+if (!conn.authState.creds.registered) {  
+//if (MethodMobile) throw new Error('No se puede usar un código de emparejamiento con la API móvil')
+
+let addNumber
+if (!!phoneNumber) {
+addNumber = phoneNumber.replace(/[^0-9]/g, '')
+if (!Object.keys(PHONENUMBER_MCC).some(v => addNumber.startsWith(v))) {
+console.log(chalk.bgBlack(chalk.bold.redBright(`CONFIGURAR ARCHIVO ${chalk.bold.greenBright("config.js")} SU NÚMERO DE WHATSAPP NO TIENE CÓDIGO DE PAÍS, ${chalk.bold.yellowBright("EJEMPLO: +593090909090")}`)))
+process.exit(0)
+}} else {
+while (true) {
+addNumber = await question(chalk.bgBlack(chalk.bold.greenBright(`POR FAVOR, ESCRIBA EL NÚMERO DE WHATSAPP QUE SERÁ BOT.\n${chalk.bold.yellowBright("CONSEJO: COPIE EL NÚMERO DE WHATSAPP Y PÉGUELO EN LA CONSOLA.")}\n${chalk.bold.yellowBright("EJEMPLO: +593090909090")}\n${chalk.bold.magentaBright('---> ')}`)))
+addNumber = addNumber.replace(/[^0-9]/g, '')
+
+if (addNumber.match(/^\d+$/) && Object.keys(PHONENUMBER_MCC).some(v => addNumber.startsWith(v))) {
+break 
+} else {
+console.log(chalk.bold.redBright("ASEGÚRESE DE AGREGAR EL CÓDIGO DE PAÍS."))
+}}
+rl.close()  
+}
+
+
+setTimeout(async () => {
+let codeBot = await conn.requestPairingCode(addNumber)
+codeBot = codeBot?.match(/.{1,4}/g)?.join("-") || codeBot
+console.log(chalk.bold.white(chalk.bgMagenta(`CÓDIGO DE VINCULACIÓN:`)), chalk.bold.white(chalk.white(codeBot)))
+}, 2000)
+}}
+}
+
+conn.isInit = false
+conn.well = false
 //-----------------------------
 
 const connectionOptions = {
