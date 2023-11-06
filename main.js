@@ -176,7 +176,7 @@ global.conn = makeWASocket(connectionOptions);
 
 conn.isInit = false;
 conn.well = false;
-conn.logger.info(`Ƈᴀʀɢᴀɴᴅᴏ．．．\n`);
+conn.logger.info(`𝑪𝒂𝒓𝒈𝒂𝒏𝒅𝒐．．．\n`);
 
 if (!opts['test']) {
   if (global.db) {
@@ -188,26 +188,7 @@ if (!opts['test']) {
 }
 
 if (opts['server']) (await import('./server.js')).default(global.conn, PORT);
-
-
-/* Y ese fue el momazo mas bueno del mundo
-        Aunque no dudara tan solo un segundo
-        Mas no me arrepiento de haberme reido
-        Por que la grasa es un sentimiento
-        Y ese fue el momazo mas bueno del mundo
-        Aunque no dudara tan solo un segundo
-        que me arrepiento de ser un grasoso
-        Por que la grasa es un sentimiento
-        - El waza 👻👻👻👻 (Aiden)            
-        
-   Yo tambien se hacer momazos Aiden...
-        ahi te va el ajuste de los borrados
-        inteligentes de las sesiones y de los sub-bot
-        By (Rey Endymion 👺👍🏼) 
-        
-   Ninguno es mejor que tilin god
-        - atte: sk1d             */
-
+//----------------------------------------------------------
 function clearTmp() {
   const tmp = [join(__dirname, './tmp')];
   const filename = [];
@@ -520,6 +501,6 @@ function clockString(ms) {
   const h = isNaN(ms) ? '--' : Math.floor(ms / 3600000) % 24;
   const m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60;
   const s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60;
-  return [d, ' Día(s) ️', h, ' Hora(s) ', m, ' Minuto(s) ', s, ' Segundo(s) '].map((v) => v.toString().padStart(2, 0)).join('');
+  return [d, ' 𝐷𝐼𝐴𝑆(𝑆) ️', h, ' 𝐻𝑂𝑅𝐴(𝑆) ', m, ' 𝑀𝐼𝑁𝑈𝑇𝑂(𝑆) '].map((v) => v.toString().padStart(2, 0)).join('');
 }
 _quickTest().catch(console.error);
