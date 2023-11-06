@@ -7,7 +7,7 @@ import fetch from 'node-fetch';
 import axios from 'axios';
 import moment from 'moment-timezone';
 
-global.botnumber = ""
+global.botcode = ""
 
 global.owner = [
   ['50258115623', '𝗖𝗥𝗘𝗔𝗗𝗢𝗥𝗔', true],
