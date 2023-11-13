@@ -4,7 +4,7 @@ let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? c
 let usuario = conn.getName(who)
 let persona = global.db.data.users[m.sender].pasangan
 
-    if (global.db.data.users[m.sender].pasangan == "") return await conn.reply(m.chat, `*${usuario}* Hola sin vida social\n\n*_Si quiere tener una pues busca pdj 😆🫵🏻\n\ntoda duda contacta a mi creador\n\nwa.me/50258115623._*\n\n${wm}`, fkontak,  m)
+    if (global.db.data.users[m.sender].pasangan == "") return await conn.reply(m.chat, `*${usuario}* ${lenguajeWL['smsCinsero']()${wm}`, fkontak,  m)
 
   if (global.db.data.users[global.db.data.users[m.sender].pasangan].pasangan == m.sender) return await conn.reply(m.chat, `*${usuario}* si lees esto eres gay *${await conn.getName(persona)}* 😆🫵🏻`, fkontak, m, {contextInfo: { mentionedJid: [ m.sender, who ] }})
 
