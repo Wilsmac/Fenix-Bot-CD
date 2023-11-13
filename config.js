@@ -21,6 +21,10 @@ global.owner = [
 global.suittag = ['50258115623'];
 global.prems = ['50250101139'];
 
+
+global.lenguajeWL = es //idioma de Fenix-Bot-CD 
+
+
 global.official = [
 ["50258115623", 'CREADOR💋', 1],
 ["50250101139", '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿 𝗢𝗳𝗶𝗰𝗶𝗮𝗹', 1], 
