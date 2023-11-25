@@ -125,7 +125,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 <a href="http://wa.me/50258115623" target="blank"><img src="https://img.shields.io/badge/UNIFINED-OFC-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
 
-## `EDITOR & PROPIETARIO DEL BOT` 
+## <h1>`PROPIETARIO DEL BOT`</h1>
 <a href="https://github.com/Wilsmac"><img src="https://github.com/Wilsmac.png" width="250" height="280" alt="Wilsmac"/></a>
   
-`Fenix-Bot-CD - By Wilmer ~ UNIFINED`
+`BOT DESARROLLADO POR (@wilmer ofc`
