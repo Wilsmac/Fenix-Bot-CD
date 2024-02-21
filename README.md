@@ -1,3 +1,8 @@
+----------------------------------------
+>próximamente le daré mantenimiento al bot y recuerden que está desactualizado.
+----------------------------------------
+
+
 <img src="https://telegra.ph/file/4257e73c23a12f04717b3.jpg" height=",70px"> 
 </p>
 </p>
