@@ -1,7 +1,7 @@
 ----------------------------------------
 >este bot le dejaré de dar Mantenimiento pero 
 hagan click abajo para el nuevo bot que estoy 
-implementando, espero que me apoyen queridos usuario.
+implementando, espero sus apoyó queridos usuario.
 ----------------------------------------
 
 <a href="https://github.com/Wilsmac/FantasyBot-MD-v1" target="black"><img src="https://img.shields.io/badge/♥️-click el nuevo repositorio del bot-000000?style=for-the-badge&logo=GitHub&logoColor=black" /></a>
