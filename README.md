@@ -1,6 +1,5 @@
-----------------------------------------
->próximamente estará disponible nuevamente Fenix-Bot-CD
-----------------------------------------
+> [!warning]
+> *próximamente estará disponible nuevamente Fenix-Bot-CD*
 
 <a href="https://github.com/Wilsmac/FantasyBot-MD-v1" target="black"><img src="https://img.shields.io/badge/♥️-Mi segundo proyecto-000000?style=for-the-badge&logo=GitHub&logoColor=black" /></a>
 
